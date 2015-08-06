@@ -1,0 +1,267 @@
+不明	Unknown
+デフォルト名	Kamui
+ギュンター	Gunther
+フェリシア	Felicia
+ジョーカー	Joker
+リンカ	Rinka
+スズカゼ	Suzukaze
+サクラ	Sakura
+アクア	Aqua
+カザハナ	Kazahana
+ツバキ	Tsubaki
+サイラス	Cyrus
+サイゾウ	Saizou
+オロチ	Orochi
+ヒノカ	Hinoka
+アサマ	Asama
+セツナ	Setsuna
+ツクヨミ	Tsukuyomi
+オボロ	Oboro
+ヒナタ	Hinata
+タクミ	Takumi
+カゲロウ	Kagerou
+ユウギリ	Yuugiri
+ニシキ	Nishiki
+リョウマ	Ryouma
+クリムゾン	Crimson
+アシュラ	Asura
+エリーゼ	Elise
+ハロルド	Harold
+エルフィ	Elfie
+オーディン	Odin
+ゼロ	Zero
+ニュクス	Nyx
+カミラ	Camilla
+ルーナ	Luna
+ベルカ	Belka
+ラズワルド	Lazwald
+ピエリ	Pieri
+ブノワ	Benoit
+シャーロッテ	Charlotte
+レオン	Leon
+フランネル	Flannel
+マークス	Marx
+イザナ	Izana
+ドラジェ	Draj
+ユキムラ	Yukimura
+フローラ	Flora
+ナハト	Nacht
+モズメ	Mozume
+カンナ	Kanna
+カンナ男	Kanna
+カンナ女	Kanna
+シグレ	Shigure
+ディーア	Dia
+ゾフィー	Sophie
+ミドリコ	Midoriko
+シノノメ	Shinonome
+キサラギ	Kisaragi
+グレイ	Grey
+キヌ	Kinu
+ヒサメ	Hisame
+ミタマ	Mitama
+マトイ	Matoi
+シャラ	Shara
+ジークベルト	Siegbert
+フォレオ	Foleo
+イグニス	Ignis
+ベロア	Velour
+べロア	Velour
+ルッツ	Lutz
+オフェリア	Ophelia
+ソレイユ	Soleil
+エポニーヌ	Eponine
+アンナ	Anna
+フウガ	Fuuga
+ガンズ	Ganz
+マクベス	Macbeth
+ガロン	Garon
+コタロウ	Kotarou
+ゾーラ	Zoura
+スメラギ	Sumeragi
+シェンメイ	Shenmei
+ミコト	Mikoto
+ハイドラ	Hydra
+モズ	Mose
+ダニエラ	Daniela
+ハイタカ	Haitaka
+クマゲラ	Kumagera
+ウィリアム	William
+ホルモン	Hormone
+ガザック	Gazzak
+バンバ	Banba
+ファンク	Funk
+ダイチ	Daichi
+セノウ	Senou
+ヴァスハラ	Vashara
+クーリア	Clear
+写し身	Clone
+CASTLE_白村人男	Hoshidan Man
+CASTLE_白村人女	Hoshidan Woman
+CASTLE_黒村人男	Nohrian Man
+CASTLE_黒村人女	Nohrian Woman
+その他	Foreign Soldier 
+白夜兵	Hoshido Soldr
+暗夜兵	Nohr Soldier
+透魔兵	Demon Soldier
+フウマ兵	Fuuma Soldier
+イズモ兵	Izumo Soldier
+シュヴァリエ兵	Chevalier
+反乱兵	Rebel
+幻影兵	Ghost Soldier
+部族兵	Tribe Soldier
+異邦の兵	Foreign Soldier
+謎の兵	Mystery Soldier
+賊	Thief
+村人	Villager
+魔物	Monster
+傭兵団	Mercenary
+花売り	Flower Vendor
+絆_白白_01	Ainezu
+絆_白白_02	Azuki
+絆_白白_03	Usubeni
+絆_白白_04	Utsubushi
+絆_白白_05	Kurenai
+絆_白白_06	Kouzome
+絆_白白_07	Kogane
+絆_白白_08	Shibukami
+絆_白白_09	Tokigara
+絆_白白_10	Tokiwa
+絆_白白_11	Nadeshiko
+絆_白白_12	Hai'ume
+絆_白白_13	Hajizome
+絆_白白_14	Futa'ai
+絆_白白_15	Mizugaki
+絆_白白_16	Murasaki
+絆_白白_17	Moegi
+絆_白白_18	Yamabuki
+絆_黒黒_01	Ivory
+絆_黒黒_02	Amber
+絆_黒黒_03	Khaki
+絆_黒黒_04	Carmine
+絆_黒黒_05	Cobalt
+絆_黒黒_06	Cork
+絆_黒黒_07	Cyan
+絆_黒黒_08	Scarlet
+絆_黒黒_09	Sepia
+絆_黒黒_10	Vermillion
+絆_黒黒_11	Purple
+絆_黒黒_12	Violet
+絆_黒黒_13	Brown
+絆_黒黒_14	Black
+絆_黒黒_15	Blonde
+絆_黒黒_16	Beige
+絆_黒黒_17	White
+絆_黒黒_18	Magenta
+絆_白黒_01	Oborozuki
+絆_白黒_02	Mochizuki
+絆_白黒_03	Izayoi
+絆_白黒_04	Amatsukaze
+絆_白黒_05	Ibuki
+絆_白黒_06	Tsumujikaze
+絆_白黒_07	Tsugumi
+絆_白黒_08	Hibari
+絆_白黒_09	Yabusame
+絆_白黒_10	Bluemoon
+絆_白黒_11	Eclipse
+絆_白黒_12	Lunar
+絆_白黒_13	Gust
+絆_白黒_14	Gale
+絆_白黒_15	Breeze
+絆_白黒_16	Ibis
+絆_白黒_17	Sparrow
+絆_白黒_18	Pheasant
+絆_白透_01	Asagao
+絆_白透_02	Hydrangea
+絆_白透_03	Bellflower
+絆_白透_04	Camellia
+絆_白透_05	Rhododendron
+絆_白透_06	Water lily
+絆_白透_07	Violet
+絆_白透_08	Azalea
+絆_白透_09	Dayflower
+絆_白透_10	Shepherd's-purse
+絆_白透_11	Corn poppy
+絆_白透_12	Bindweed
+絆_白透_13	Ground cherry
+絆_白透_14	Magnolia
+絆_白透_15	Gold-banded lily
+絆_白透_16	Bottle gourd
+絆_白透_17	Lily
+絆_白透_18	Yorugao
+絆_黒透_01	Anemone
+絆_黒透_02	Amaryllis
+絆_黒透_03	Gerbera
+絆_黒透_04	Camomile
+絆_黒透_05	Saffron
+絆_黒透_06	Cyclamen
+絆_黒透_07	Sweetpea
+絆_黒透_08	Dalia
+絆_黒透_09	Vanilla
+絆_黒透_10	Freesia
+絆_黒透_11	Veronica
+絆_黒透_12	Popura
+絆_黒透_13	Margaret
+絆_黒透_14	Metasequoia
+絆_黒透_15	Lilac
+絆_黒透_16	Lavender
+絆_黒透_17	Lychee
+絆_黒透_18	Liatris
+絆_透透_01	Angle
+絆_透透_02	Equal
+絆_透透_03	Area
+絆_透透_04	Curve
+絆_透透_05	Graph
+絆_透透_06	Symmetry
+絆_透透_07	Sphere
+絆_透透_08	Square
+絆_透透_09	Segment
+絆_透透_10	Parallel
+絆_透透_11	Fraction
+絆_透透_12	Plus
+絆_透透_13	Plane
+絆_透透_14	Vector
+絆_透透_15	Minus
+絆_透透_16	Line
+絆_透透_17	Radius
+絆_透透_18	Radian
+リリス	Lilith
+リリス竜	Lilith (Dragon)
+ゴーレムＡ	Golem A
+ゴーレムＢ	Golem B
+ゴーレムＣ	Golem C
+絡繰人形・甲	Puppet (Sky)
+絡繰人形・乙	Puppet (Land)
+絡繰人形・丙	Puppet (Human)
+闘技者	Competitor
+ララ	Lala
+ロンタオ	Rontao
+村人おじいさん白	Elder
+村人おばさん白	Aunt
+村人お姉さん白	Sister
+村人お兄さん白	Brother
+村人子供白	Children
+村人おじいさん黒	Elder
+村人おばさん黒	Aunt
+村人お姉さん黒	Sister
+村人お兄さん黒	Brother
+村人子供黒	Children
+ノスフェラトゥ	Faceless
+ゴーレム	Golem
+妖狐	Fox Spirit
+ガルー	Garou
+忍	Ninja
+虹の賢者	Rainbow Sage
+カシータ	Casita
+フードマン	Food Vendor
+マルス	Marth
+アイク	Ike
+ルキナ	Lucina
+ルフレ	Robin
+？？？	???
+クロム	Chrom
+クロム右	Chrom
+クロム左	Chrom
+リズ	Lissa
+フレデリク	Frederick
+金ノスフェラトゥ	Gold Faceless
