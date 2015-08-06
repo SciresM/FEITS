@@ -87,8 +87,6 @@ namespace FEITS
                 ResourceList.Add(o.Key as string);
             Resources.ResourceManager.ReleaseAllResources();
 
-            GetCharacterBUImage("リョウマ", DEFAULT_EMOTION, Color.FromArgb(0x5B5855), true).Save("B:/ryoumacrop.png", ImageFormat.Png);
-
             CB_Kamui.Items.AddRange(new[] { "Male 1", "Male 2", "Female 1", "Female 2" });
             CB_Eyes.Items.AddRange(new[] { "Style A", "Style B", "Style C", "Style D", "Style E", "Style F", "Style G" });
             CB_TB.Items.AddRange(new[] { "Standard", "Nohrian", "Hoshidan" });
