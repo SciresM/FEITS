@@ -1,7 +1,7 @@
 # FEITS
 Fire Emblem: If Text Simulator
 
-![FEITS](http://i.imgur.com/aEFZcVU.png)
+![FEITS](http://i.imgur.com/OE7w7UO.png)
 
 Simulates Fire Emblem: If conversations, allows for the generation of portraits with specific hair colors, and is generally neat. 
 
@@ -16,6 +16,8 @@ Reference Guide: http://pastebin.com/0g7jf3i3
 -Added a Background feature for conversations (the in-game Supports barrack is the default).
 
 -Added an icon to the program.
+
+-FEITS now grays out the inactive character for game accuracy.
 
 -FEITS now enforces game-accurate text cropping (characters get cut-off if the line goes too long).
 
