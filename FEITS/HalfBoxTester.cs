@@ -32,9 +32,12 @@ namespace FEITS
         {
             if (LBL_Warning.Visible)
                 return;
-            Image HB = DrawString(TextBoxes[CB_TB.SelectedIndex], RTB_Line.Text.Replace("\\n", "\n"), 10, 22, Color.FromArgb(68, 8, 0)) as Bitmap;
+
+            Image HB = TextBoxes[CB_TB.SelectedIndex].Clone() as Bitmap;
+            Image Text = DrawString(new Bitmap(165,50), RTB_Line.Text.Replace("\\n", "\n"), 0, 22, Color.FromArgb(68, 8, 0)) as Bitmap;
             using (Graphics g = Graphics.FromImage(HB))
             {
+                g.DrawImage(Text, new Point(10, 0));
                 g.DrawImage(Resources.KeyPress, new Point(PB_TextBox.Width - 30, PB_TextBox.Height - HB.Height + 32));
             }
             PB_TextBox.Image = HB;

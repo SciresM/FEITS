@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PortraitGenerator));
             this.PB_Portrait = new System.Windows.Forms.PictureBox();
             this.CB_PortraitStyle = new System.Windows.Forms.ComboBox();
             this.LBL_PortraitStyle = new System.Windows.Forms.Label();
@@ -46,6 +47,10 @@
             this.CB_Emotion = new System.Windows.Forms.ComboBox();
             this.CHK_Blush = new System.Windows.Forms.CheckBox();
             this.CHK_SweatDrop = new System.Windows.Forms.CheckBox();
+            this.CB_Accessory = new System.Windows.Forms.ComboBox();
+            this.LBL_Accessory = new System.Windows.Forms.Label();
+            this.CB_FacialFeature = new System.Windows.Forms.ComboBox();
+            this.LBL_FacialFeature = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Portrait)).BeginInit();
             this.SuspendLayout();
             // 
@@ -238,11 +243,53 @@
             this.CHK_SweatDrop.UseVisualStyleBackColor = true;
             this.CHK_SweatDrop.CheckedChanged += new System.EventHandler(this.Emotions_Changed);
             // 
+            // CB_Accessory
+            // 
+            this.CB_Accessory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CB_Accessory.FormattingEnabled = true;
+            this.CB_Accessory.Location = new System.Drawing.Point(298, 591);
+            this.CB_Accessory.Name = "CB_Accessory";
+            this.CB_Accessory.Size = new System.Drawing.Size(92, 21);
+            this.CB_Accessory.TabIndex = 34;
+            this.CB_Accessory.SelectedIndexChanged += new System.EventHandler(this.Kamui_Data_Changed);
+            // 
+            // LBL_Accessory
+            // 
+            this.LBL_Accessory.AutoSize = true;
+            this.LBL_Accessory.Location = new System.Drawing.Point(233, 594);
+            this.LBL_Accessory.Name = "LBL_Accessory";
+            this.LBL_Accessory.Size = new System.Drawing.Size(59, 13);
+            this.LBL_Accessory.TabIndex = 33;
+            this.LBL_Accessory.Text = "Accessory:";
+            // 
+            // CB_FacialFeature
+            // 
+            this.CB_FacialFeature.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CB_FacialFeature.FormattingEnabled = true;
+            this.CB_FacialFeature.Location = new System.Drawing.Point(93, 591);
+            this.CB_FacialFeature.Name = "CB_FacialFeature";
+            this.CB_FacialFeature.Size = new System.Drawing.Size(134, 21);
+            this.CB_FacialFeature.TabIndex = 32;
+            this.CB_FacialFeature.SelectedIndexChanged += new System.EventHandler(this.Kamui_Data_Changed);
+            // 
+            // LBL_FacialFeature
+            // 
+            this.LBL_FacialFeature.AutoSize = true;
+            this.LBL_FacialFeature.Location = new System.Drawing.Point(12, 594);
+            this.LBL_FacialFeature.Name = "LBL_FacialFeature";
+            this.LBL_FacialFeature.Size = new System.Drawing.Size(77, 13);
+            this.LBL_FacialFeature.TabIndex = 31;
+            this.LBL_FacialFeature.Text = "Facial Feature:";
+            // 
             // PortraitGenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 596);
+            this.ClientSize = new System.Drawing.Size(524, 616);
+            this.Controls.Add(this.CB_Accessory);
+            this.Controls.Add(this.LBL_Accessory);
+            this.Controls.Add(this.CB_FacialFeature);
+            this.Controls.Add(this.LBL_FacialFeature);
             this.Controls.Add(this.CHK_SweatDrop);
             this.Controls.Add(this.CHK_Blush);
             this.Controls.Add(this.CB_Emotion);
@@ -261,8 +308,9 @@
             this.Controls.Add(this.LBL_PortraitStyle);
             this.Controls.Add(this.CB_PortraitStyle);
             this.Controls.Add(this.PB_Portrait);
-            this.MaximumSize = new System.Drawing.Size(540, 635);
-            this.MinimumSize = new System.Drawing.Size(540, 635);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(540, 655);
+            this.MinimumSize = new System.Drawing.Size(540, 655);
             this.Name = "PortraitGenerator";
             this.Text = "FEITS Portrait Generator";
             ((System.ComponentModel.ISupportInitialize)(this.PB_Portrait)).EndInit();
@@ -291,5 +339,9 @@
         private System.Windows.Forms.ComboBox CB_Emotion;
         private System.Windows.Forms.CheckBox CHK_Blush;
         private System.Windows.Forms.CheckBox CHK_SweatDrop;
+        private System.Windows.Forms.ComboBox CB_Accessory;
+        private System.Windows.Forms.Label LBL_Accessory;
+        private System.Windows.Forms.ComboBox CB_FacialFeature;
+        private System.Windows.Forms.Label LBL_FacialFeature;
     }
 }

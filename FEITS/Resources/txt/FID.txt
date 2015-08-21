@@ -460,3 +460,13 @@ FSID_ST_フレデリク
 FSID_BU_フレデリク
 FSID_ST_金ノスフェラトゥ
 FSID_BU_金ノスフェラトゥ
+FSID_ST_ウード
+FSID_BU_ウード
+FSID_ST_アズール
+FSID_BU_アズール
+FSID_ST_セレナ
+FSID_BU_セレナ
+FSID_ST_影リリス
+FSID_BU_影リリス
+FSID_ST_善ハイドラ
+FSID_BU_善ハイドラ

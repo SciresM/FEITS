@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HalfBoxTester));
             this.PB_TextBox = new System.Windows.Forms.PictureBox();
             this.RTB_Line = new System.Windows.Forms.RichTextBox();
             this.B_Reload = new System.Windows.Forms.Button();
@@ -106,6 +107,7 @@
             this.Controls.Add(this.B_Reload);
             this.Controls.Add(this.RTB_Line);
             this.Controls.Add(this.PB_TextBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(395, 310);
             this.MinimumSize = new System.Drawing.Size(395, 310);
             this.Name = "HalfBoxTester";

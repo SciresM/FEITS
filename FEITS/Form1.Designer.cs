@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.PB_TextBox = new System.Windows.Forms.PictureBox();
             this.RTB_Line = new System.Windows.Forms.RichTextBox();
             this.B_Reload = new System.Windows.Forms.Button();
@@ -50,6 +51,11 @@
             this.CB_HairStyle = new System.Windows.Forms.ComboBox();
             this.B_PortraitGeneration = new System.Windows.Forms.Button();
             this.B_LvlUpTester = new System.Windows.Forms.Button();
+            this.CHK_UseBackgrounds = new System.Windows.Forms.CheckBox();
+            this.LBL_FacialFeature = new System.Windows.Forms.Label();
+            this.CB_FacialFeature = new System.Windows.Forms.ComboBox();
+            this.LBL_Accessory = new System.Windows.Forms.Label();
+            this.CB_Accessory = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.PB_TextBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,14 +65,14 @@
             this.PB_TextBox.InitialImage = global::FEITS.Properties.Resources.TextBox;
             this.PB_TextBox.Location = new System.Drawing.Point(7, 5);
             this.PB_TextBox.Name = "PB_TextBox";
-            this.PB_TextBox.Size = new System.Drawing.Size(390, 250);
+            this.PB_TextBox.Size = new System.Drawing.Size(400, 240);
             this.PB_TextBox.TabIndex = 0;
             this.PB_TextBox.TabStop = false;
             this.PB_TextBox.Click += new System.EventHandler(this.PB_TextBox_Click);
             // 
             // RTB_Line
             // 
-            this.RTB_Line.Location = new System.Drawing.Point(12, 352);
+            this.RTB_Line.Location = new System.Drawing.Point(17, 378);
             this.RTB_Line.Name = "RTB_Line";
             this.RTB_Line.Size = new System.Drawing.Size(379, 119);
             this.RTB_Line.TabIndex = 1;
@@ -76,7 +82,7 @@
             // 
             // B_Reload
             // 
-            this.B_Reload.Location = new System.Drawing.Point(12, 262);
+            this.B_Reload.Location = new System.Drawing.Point(17, 253);
             this.B_Reload.Name = "B_Reload";
             this.B_Reload.Size = new System.Drawing.Size(88, 28);
             this.B_Reload.TabIndex = 2;
@@ -87,7 +93,7 @@
             // B_Prev
             // 
             this.B_Prev.Enabled = false;
-            this.B_Prev.Location = new System.Drawing.Point(106, 262);
+            this.B_Prev.Location = new System.Drawing.Point(111, 253);
             this.B_Prev.Name = "B_Prev";
             this.B_Prev.Size = new System.Drawing.Size(72, 28);
             this.B_Prev.TabIndex = 3;
@@ -98,7 +104,7 @@
             // B_Next
             // 
             this.B_Next.Enabled = false;
-            this.B_Next.Location = new System.Drawing.Point(184, 262);
+            this.B_Next.Location = new System.Drawing.Point(189, 253);
             this.B_Next.Name = "B_Next";
             this.B_Next.Size = new System.Drawing.Size(57, 28);
             this.B_Next.TabIndex = 4;
@@ -110,7 +116,7 @@
             // 
             this.LBL_Warning.AutoSize = true;
             this.LBL_Warning.ForeColor = System.Drawing.Color.Red;
-            this.LBL_Warning.Location = new System.Drawing.Point(9, 474);
+            this.LBL_Warning.Location = new System.Drawing.Point(14, 500);
             this.LBL_Warning.Name = "LBL_Warning";
             this.LBL_Warning.Size = new System.Drawing.Size(305, 13);
             this.LBL_Warning.TabIndex = 5;
@@ -120,7 +126,7 @@
             // LBL_CharName
             // 
             this.LBL_CharName.AutoSize = true;
-            this.LBL_CharName.Location = new System.Drawing.Point(251, 270);
+            this.LBL_CharName.Location = new System.Drawing.Point(256, 261);
             this.LBL_CharName.Name = "LBL_CharName";
             this.LBL_CharName.Size = new System.Drawing.Size(38, 13);
             this.LBL_CharName.TabIndex = 6;
@@ -128,7 +134,7 @@
             // 
             // TB_CharName
             // 
-            this.TB_CharName.Location = new System.Drawing.Point(295, 267);
+            this.TB_CharName.Location = new System.Drawing.Point(300, 258);
             this.TB_CharName.Name = "TB_CharName";
             this.TB_CharName.Size = new System.Drawing.Size(96, 20);
             this.TB_CharName.TabIndex = 7;
@@ -138,7 +144,7 @@
             // LBL_CharType
             // 
             this.LBL_CharType.AutoSize = true;
-            this.LBL_CharType.Location = new System.Drawing.Point(8, 300);
+            this.LBL_CharType.Location = new System.Drawing.Point(13, 291);
             this.LBL_CharType.Name = "LBL_CharType";
             this.LBL_CharType.Size = new System.Drawing.Size(39, 13);
             this.LBL_CharType.TabIndex = 9;
@@ -147,7 +153,7 @@
             // LBL_TBType
             // 
             this.LBL_TBType.AutoSize = true;
-            this.LBL_TBType.Location = new System.Drawing.Point(259, 300);
+            this.LBL_TBType.Location = new System.Drawing.Point(264, 291);
             this.LBL_TBType.Name = "LBL_TBType";
             this.LBL_TBType.Size = new System.Drawing.Size(49, 13);
             this.LBL_TBType.TabIndex = 10;
@@ -157,16 +163,17 @@
             // 
             this.CB_Kamui.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CB_Kamui.FormattingEnabled = true;
-            this.CB_Kamui.Location = new System.Drawing.Point(50, 297);
+            this.CB_Kamui.Location = new System.Drawing.Point(55, 288);
             this.CB_Kamui.Name = "CB_Kamui";
             this.CB_Kamui.Size = new System.Drawing.Size(73, 21);
             this.CB_Kamui.TabIndex = 11;
+            this.CB_Kamui.SelectedIndexChanged += new System.EventHandler(this.CB_Kamui_SelectedIndexChanged);
             // 
             // CB_TB
             // 
             this.CB_TB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CB_TB.FormattingEnabled = true;
-            this.CB_TB.Location = new System.Drawing.Point(309, 297);
+            this.CB_TB.Location = new System.Drawing.Point(314, 288);
             this.CB_TB.Name = "CB_TB";
             this.CB_TB.Size = new System.Drawing.Size(82, 21);
             this.CB_TB.TabIndex = 12;
@@ -174,7 +181,7 @@
             // LBL_HairColorA
             // 
             this.LBL_HairColorA.AutoSize = true;
-            this.LBL_HairColorA.Location = new System.Drawing.Point(108, 330);
+            this.LBL_HairColorA.Location = new System.Drawing.Point(113, 321);
             this.LBL_HairColorA.Name = "LBL_HairColorA";
             this.LBL_HairColorA.Size = new System.Drawing.Size(71, 13);
             this.LBL_HairColorA.TabIndex = 13;
@@ -182,7 +189,7 @@
             // 
             // MTB_HairColorA
             // 
-            this.MTB_HairColorA.Location = new System.Drawing.Point(185, 327);
+            this.MTB_HairColorA.Location = new System.Drawing.Point(190, 318);
             this.MTB_HairColorA.Mask = "\\#>AAAAAA";
             this.MTB_HairColorA.Name = "MTB_HairColorA";
             this.MTB_HairColorA.Size = new System.Drawing.Size(61, 20);
@@ -191,7 +198,7 @@
             // 
             // MTB_HairColorB
             // 
-            this.MTB_HairColorB.Location = new System.Drawing.Point(330, 327);
+            this.MTB_HairColorB.Location = new System.Drawing.Point(335, 318);
             this.MTB_HairColorB.Mask = "\\#>AAAAAA";
             this.MTB_HairColorB.Name = "MTB_HairColorB";
             this.MTB_HairColorB.Size = new System.Drawing.Size(61, 20);
@@ -201,7 +208,7 @@
             // LBL_HairColorB
             // 
             this.LBL_HairColorB.AutoSize = true;
-            this.LBL_HairColorB.Location = new System.Drawing.Point(251, 330);
+            this.LBL_HairColorB.Location = new System.Drawing.Point(256, 321);
             this.LBL_HairColorB.Name = "LBL_HairColorB";
             this.LBL_HairColorB.Size = new System.Drawing.Size(73, 13);
             this.LBL_HairColorB.TabIndex = 15;
@@ -210,7 +217,7 @@
             // LBL_Eyes
             // 
             this.LBL_Eyes.AutoSize = true;
-            this.LBL_Eyes.Location = new System.Drawing.Point(129, 300);
+            this.LBL_Eyes.Location = new System.Drawing.Point(134, 291);
             this.LBL_Eyes.Name = "LBL_Eyes";
             this.LBL_Eyes.Size = new System.Drawing.Size(54, 13);
             this.LBL_Eyes.TabIndex = 17;
@@ -220,7 +227,7 @@
             // 
             this.CB_Eyes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CB_Eyes.FormattingEnabled = true;
-            this.CB_Eyes.Location = new System.Drawing.Point(185, 297);
+            this.CB_Eyes.Location = new System.Drawing.Point(190, 288);
             this.CB_Eyes.Name = "CB_Eyes";
             this.CB_Eyes.Size = new System.Drawing.Size(73, 21);
             this.CB_Eyes.TabIndex = 18;
@@ -228,7 +235,7 @@
             // LBL_HairStyle
             // 
             this.LBL_HairStyle.AutoSize = true;
-            this.LBL_HairStyle.Location = new System.Drawing.Point(8, 330);
+            this.LBL_HairStyle.Location = new System.Drawing.Point(13, 321);
             this.LBL_HairStyle.Name = "LBL_HairStyle";
             this.LBL_HairStyle.Size = new System.Drawing.Size(50, 13);
             this.LBL_HairStyle.TabIndex = 19;
@@ -238,14 +245,14 @@
             // 
             this.CB_HairStyle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CB_HairStyle.FormattingEnabled = true;
-            this.CB_HairStyle.Location = new System.Drawing.Point(59, 326);
+            this.CB_HairStyle.Location = new System.Drawing.Point(64, 317);
             this.CB_HairStyle.Name = "CB_HairStyle";
             this.CB_HairStyle.Size = new System.Drawing.Size(43, 21);
             this.CB_HairStyle.TabIndex = 20;
             // 
             // B_PortraitGeneration
             // 
-            this.B_PortraitGeneration.Location = new System.Drawing.Point(280, 501);
+            this.B_PortraitGeneration.Location = new System.Drawing.Point(285, 527);
             this.B_PortraitGeneration.Name = "B_PortraitGeneration";
             this.B_PortraitGeneration.Size = new System.Drawing.Size(111, 23);
             this.B_PortraitGeneration.TabIndex = 21;
@@ -255,7 +262,7 @@
             // 
             // B_LvlUpTester
             // 
-            this.B_LvlUpTester.Location = new System.Drawing.Point(12, 501);
+            this.B_LvlUpTester.Location = new System.Drawing.Point(17, 527);
             this.B_LvlUpTester.Name = "B_LvlUpTester";
             this.B_LvlUpTester.Size = new System.Drawing.Size(111, 23);
             this.B_LvlUpTester.TabIndex = 22;
@@ -263,11 +270,63 @@
             this.B_LvlUpTester.UseVisualStyleBackColor = true;
             this.B_LvlUpTester.Click += new System.EventHandler(this.B_LvlUpTester_Click);
             // 
+            // CHK_UseBackgrounds
+            // 
+            this.CHK_UseBackgrounds.AutoSize = true;
+            this.CHK_UseBackgrounds.Location = new System.Drawing.Point(148, 531);
+            this.CHK_UseBackgrounds.Name = "CHK_UseBackgrounds";
+            this.CHK_UseBackgrounds.Size = new System.Drawing.Size(125, 17);
+            this.CHK_UseBackgrounds.TabIndex = 23;
+            this.CHK_UseBackgrounds.Text = "Enable Backgrounds";
+            this.CHK_UseBackgrounds.UseVisualStyleBackColor = true;
+            this.CHK_UseBackgrounds.CheckedChanged += new System.EventHandler(this.CHK_UseBackgrounds_CheckedChanged);
+            // 
+            // LBL_FacialFeature
+            // 
+            this.LBL_FacialFeature.AutoSize = true;
+            this.LBL_FacialFeature.Location = new System.Drawing.Point(14, 352);
+            this.LBL_FacialFeature.Name = "LBL_FacialFeature";
+            this.LBL_FacialFeature.Size = new System.Drawing.Size(77, 13);
+            this.LBL_FacialFeature.TabIndex = 24;
+            this.LBL_FacialFeature.Text = "Facial Feature:";
+            // 
+            // CB_FacialFeature
+            // 
+            this.CB_FacialFeature.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CB_FacialFeature.FormattingEnabled = true;
+            this.CB_FacialFeature.Location = new System.Drawing.Point(95, 349);
+            this.CB_FacialFeature.Name = "CB_FacialFeature";
+            this.CB_FacialFeature.Size = new System.Drawing.Size(134, 21);
+            this.CB_FacialFeature.TabIndex = 25;
+            // 
+            // LBL_Accessory
+            // 
+            this.LBL_Accessory.AutoSize = true;
+            this.LBL_Accessory.Location = new System.Drawing.Point(235, 352);
+            this.LBL_Accessory.Name = "LBL_Accessory";
+            this.LBL_Accessory.Size = new System.Drawing.Size(59, 13);
+            this.LBL_Accessory.TabIndex = 26;
+            this.LBL_Accessory.Text = "Accessory:";
+            // 
+            // CB_Accessory
+            // 
+            this.CB_Accessory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CB_Accessory.FormattingEnabled = true;
+            this.CB_Accessory.Location = new System.Drawing.Point(300, 349);
+            this.CB_Accessory.Name = "CB_Accessory";
+            this.CB_Accessory.Size = new System.Drawing.Size(92, 21);
+            this.CB_Accessory.TabIndex = 27;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(404, 536);
+            this.ClientSize = new System.Drawing.Size(414, 561);
+            this.Controls.Add(this.CB_Accessory);
+            this.Controls.Add(this.LBL_Accessory);
+            this.Controls.Add(this.CB_FacialFeature);
+            this.Controls.Add(this.LBL_FacialFeature);
+            this.Controls.Add(this.CHK_UseBackgrounds);
             this.Controls.Add(this.B_LvlUpTester);
             this.Controls.Add(this.B_PortraitGeneration);
             this.Controls.Add(this.CB_HairStyle);
@@ -290,8 +349,9 @@
             this.Controls.Add(this.B_Reload);
             this.Controls.Add(this.RTB_Line);
             this.Controls.Add(this.PB_TextBox);
-            this.MaximumSize = new System.Drawing.Size(420, 575);
-            this.MinimumSize = new System.Drawing.Size(420, 575);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(430, 600);
+            this.MinimumSize = new System.Drawing.Size(430, 600);
             this.Name = "Form1";
             this.Text = "Fire Emblem: If Text Simulator";
             ((System.ComponentModel.ISupportInitialize)(this.PB_TextBox)).EndInit();
@@ -324,6 +384,11 @@
         private System.Windows.Forms.ComboBox CB_HairStyle;
         private System.Windows.Forms.Button B_PortraitGeneration;
         private System.Windows.Forms.Button B_LvlUpTester;
+        private System.Windows.Forms.CheckBox CHK_UseBackgrounds;
+        private System.Windows.Forms.Label LBL_FacialFeature;
+        private System.Windows.Forms.ComboBox CB_FacialFeature;
+        private System.Windows.Forms.Label LBL_Accessory;
+        private System.Windows.Forms.ComboBox CB_Accessory;
     }
 }
 

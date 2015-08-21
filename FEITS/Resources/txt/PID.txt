@@ -265,3 +265,8 @@ CASTLE_黒村人女	Nohrian Woman
 リズ	Lissa
 フレデリク	Frederick
 金ノスフェラトゥ	Gold Faceless
+ウード	Owain
+アズール	Inigo
+セレナ	Severa
+影リリス	Lilith
+善ハイドラ	Hydra

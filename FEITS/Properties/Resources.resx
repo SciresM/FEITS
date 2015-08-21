@@ -10147,4 +10147,754 @@
   <data name="金ノスフェラトゥ_st_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img\face\金ノスフェラトゥ_st_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SupportBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\SupportBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_bu_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_bu_アクセサリ2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_bu_アクセサリ2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_bu_アクセサリ2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_bu_アクセサリ2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_bu_アクセサリ2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_bu_アクセサリ2_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_ct_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_ct_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女1_st_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_st_アクセサリ2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_st_アクセサリ2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_st_アクセサリ2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_st_アクセサリ2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女1_st_アクセサリ2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女1_st_アクセサリ2_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_bu_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_bu_アクセサリ2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_bu_アクセサリ2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_bu_アクセサリ2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_bu_アクセサリ2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_bu_アクセサリ2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_bu_アクセサリ2_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_ct_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_ct_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ女2_st_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_st_アクセサリ2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_st_アクセサリ2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_st_アクセサリ2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_st_アクセサリ2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ女2_st_アクセサリ2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory2\マイユニ女2_st_アクセサリ2_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_bu_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_bu_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_ct_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_ct_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男1_st_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男1_st_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_bu_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_bu_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_ct_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_ct_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="マイユニ男2_st_アクセサリ1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\accessory1\マイユニ男2_st_アクセサリ1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_bu_あらら" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_bu_あらら.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_bu_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_bu_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_bu_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_bu_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_bu_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_bu_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_bu_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_bu_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_bu_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_bu_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_bu_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_bu_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_bu_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_bu_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_ct_ベース" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_ct_ベース.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_st_あらら" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_st_あらら.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_st_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_st_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_st_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_st_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_st_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_st_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_st_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_st_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_st_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_st_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_st_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_st_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="アズール_st_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\アズール_st_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_bu_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_bu_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_bu_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_bu_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_bu_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_bu_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_bu_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_bu_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_bu_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_bu_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_bu_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_bu_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_bu_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_bu_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_ct_ベース" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_ct_ベース.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_st_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_st_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_st_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_st_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_st_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_st_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_st_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_st_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_st_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_st_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_st_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_st_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ウード_st_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\ウード_st_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_企み" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_企み.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_拗ね" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_拗ね.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_bu_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_bu_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_ct_ベース" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_ct_ベース.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_企み" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_企み.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_拗ね" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_拗ね.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="セレナ_st_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\セレナ_st_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_bu_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_bu_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_bu_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_bu_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_bu_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_bu_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_bu_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_bu_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_bu_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_bu_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_bu_笑2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_bu_笑2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_bu_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_bu_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_bu_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_bu_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_st_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_st_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_st_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_st_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_st_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_st_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_st_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_st_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_st_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_st_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_st_笑2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_st_笑2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_st_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_st_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="善ハイドラ_st_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\善ハイドラ_st_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_苦2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_苦2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_苦3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_苦3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_bu_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_bu_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_キメ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_キメ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_怒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_怒.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_汗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_汗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_照" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_照.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_笑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_苦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_苦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_苦2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_苦2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_苦3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_苦3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影リリス_st_通常" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\face\影リリス_st_通常.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

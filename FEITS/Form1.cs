@@ -40,6 +40,7 @@ namespace FEITS
         private Color COLOR_A = Color.FromArgb(0x5B, 0x58, 0x55);
         private Color COLOR_B = Color.FromArgb(0x5B, 0x58, 0x55);
         private ConversationTypes CONVERSATION_TYPE = ConversationTypes.TYPE_1;
+        private Image BACKGROUND_IMAGE;
 
 
         private string[] EyeStyles = new string[] { "a", "b", "c", "d", "e", "f", "g" };
@@ -91,10 +92,44 @@ namespace FEITS
             CB_Eyes.Items.AddRange(new[] { "Style A", "Style B", "Style C", "Style D", "Style E", "Style F", "Style G" });
             CB_TB.Items.AddRange(new[] { "Standard", "Nohrian", "Hoshidan" });
             CB_HairStyle.Items.AddRange(Enumerable.Range(0, 12).Select(i => i.ToString("00")).ToArray());
-            CB_Kamui.SelectedIndex = CB_TB.SelectedIndex = CB_Eyes.SelectedIndex = CB_HairStyle.SelectedIndex = 0;
+            CB_FacialFeature.Items.AddRange(new[]{"None", "Scratches", "Vertical Scratches", "Horizontal Scratches", "Tattoo 1", "Tattoo 2", "Tattoo 3", "Eye Mole", "Mouth Mole", "Plaster 1", "Plaster 2", "White Eyepatch", "Black Eyepatch"});
+            CB_Accessory.Items.AddRange(new[] { "None", "Silver Piece", "Butterfly", "Black Ribbon", "White Ribbon", "White Rose"});
+
+            CB_Kamui.SelectedIndex = CB_TB.SelectedIndex = CB_Eyes.SelectedIndex = CB_HairStyle.SelectedIndex = CB_FacialFeature.SelectedIndex = CB_Accessory.SelectedIndex = 0;
 
             MTB_HairColorA.Text = MTB_HairColorB.Text = "#5B5855";
+            BACKGROUND_IMAGE = Resources.SupportBG.Clone() as Bitmap;
+
+            PB_TextBox.AllowDrop = true;
+            PB_TextBox.DragEnter += new DragEventHandler(PB_TextBox_DragEnter);
+            PB_TextBox.DragDrop += new DragEventHandler(PB_TextBox_DragDrop);
             B_Reload_Click(null, null);
+        }
+
+        private void PB_TextBox_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop)) e.Effect = DragDropEffects.Copy;
+        }
+
+        private void PB_TextBox_DragDrop(object sender, DragEventArgs e)
+        {
+            string file = ((string[])e.Data.GetData(DataFormats.FileDrop))[0];
+            if (File.Exists(file))
+            {
+                try
+                {
+                    Image img = Image.FromFile(file);
+                    if (img.Width > 1 && img.Height > 1)
+                    {
+                        BACKGROUND_IMAGE = img;
+                        B_Reload_Click(sender, e);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Do nothing
+                }
+            }
         }
 
         private void RTB_Line_TextChanged(object sender, EventArgs e)
@@ -149,6 +184,9 @@ namespace FEITS
                 {
                     Tuple<string, Command> res = ParseCommand(MSG, i);
                     MSG = res.Item1;
+                    if (res.Item2.NumParams > 0)
+                        if (res.Item2.Params[0] == "ベロア")
+                            res.Item2.Params[0] = "べロア"; // Velour Fix
                     switch (res.Item2.CMD)
                     {
                         case "$E":
@@ -346,35 +384,39 @@ namespace FEITS
         private Image RenderTypeOne(string Message)
         {
             Bitmap Box = new Bitmap(PB_TextBox.Width, PB_TextBox.Height);
-            Bitmap TB = DrawString(TextBoxes[CB_TB.SelectedIndex], Message, 29, 22, Color.FromArgb(68, 8, 0)) as Bitmap;
+            Bitmap TB = TextBoxes[CB_TB.SelectedIndex].Clone() as Bitmap;
+            Bitmap Text = DrawString(new Bitmap(312,50), Message, 0,22, Color.FromArgb(68, 8, 0)) as Bitmap;
+            using (Graphics g = Graphics.FromImage(TB))
+                g.DrawImage(Text, new Point(29, 0));
             string Name = Names.ContainsKey(CHAR_ACTIVE) ? Names[CHAR_ACTIVE] : (CHAR_ACTIVE == "username" ? PLAYER_NAME : CHAR_ACTIVE);
             int NameLen = GetLength(Name);
             Bitmap NB = DrawString(Resources.NameBox, Name, Resources.NameBox.Width / 2 - NameLen / 2, 16, Color.FromArgb(253, 234, 177)) as Bitmap; // Center Name in NameBox
             using (Graphics g = Graphics.FromImage(Box))
             {
+                if (CHK_UseBackgrounds.Checked)
+                    g.DrawImage(BACKGROUND_IMAGE, new Point(0, 0));
                 if (CHAR_A != string.Empty)
                 {
                     Image CA = GetCharacterStageImage(CHAR_A, EMOTION_A, COLOR_A, true);
-                    g.DrawImage(CA, new Point(-35, Box.Height - CA.Height + 14));
+                    g.DrawImage((CHAR_ACTIVE == CHAR_A) ? CA : Fade(CA), new Point(-28, Box.Height - CA.Height + 14));
                 }
                 if (CHAR_B != string.Empty)
                 {
                     Image CB = GetCharacterStageImage(CHAR_B, EMOTION_B, COLOR_B, false);
-                    g.DrawImage(CB, new Point(Box.Width - CB.Width + 28, Box.Height - CB.Height + 14));
+                    g.DrawImage((CHAR_ACTIVE == CHAR_B) ? CB : Fade(CB), new Point(Box.Width - CB.Width + 28, Box.Height - CB.Height + 14));
                 }
-                g.DrawImage(TB, new Point(3, Box.Height - TB.Height + 2));
+                g.DrawImage(TB, new Point(10, Box.Height - TB.Height + 2));
                 if (CHAR_ACTIVE != string.Empty)
                 {
                     if (CHAR_ACTIVE == CHAR_B)
-                        g.DrawImage(NB, new Point(Box.Width - NB.Width, Box.Height - TB.Height - 14));
+                        g.DrawImage(NB, new Point(Box.Width - NB.Width-6, Box.Height - TB.Height - 14));
                     else
-                        g.DrawImage(NB, new Point(0, Box.Height - TB.Height - 14));
+                        g.DrawImage(NB, new Point(7, Box.Height - TB.Height - 14));
                 }
                 if (CUR_INDEX < Messages.Count - 1)
                 {
-                    g.DrawImage(Resources.KeyPress, new Point(Box.Width - 30, Box.Height - TB.Height + 32));
+                    g.DrawImage(Resources.KeyPress, new Point(Box.Width - 33 , Box.Height - TB.Height + 32));
                 }
-
             }
             return Box as Image;
         }
@@ -399,8 +441,8 @@ namespace FEITS
                 using (Graphics g = Graphics.FromImage(TopBox))
                 {
                     g.DrawImage(GetCharacterBUImage(CHAR_A, EMOTION_A, COLOR_A, true), new Point(2, 3));
+                    g.DrawImage(DrawString(new Bitmap(282, 50), TopMessage, 0, 22, Color.FromArgb(68, 8, 0)), new Point(76, 0));
                 }
-                TopBox = DrawString(TopBox, TopMessage, 76, 22, Color.FromArgb(68, 8, 0)) as Bitmap;
             }
             if (BottomMessage != string.Empty && CHAR_B != string.Empty)
             {
@@ -408,8 +450,8 @@ namespace FEITS
                 using (Graphics g = Graphics.FromImage(BottomBox))
                 {
                     g.DrawImage(GetCharacterBUImage(CHAR_B, EMOTION_B, COLOR_B, true), new Point(2, 3));
+                    g.DrawImage(DrawString(new Bitmap(282, 50), BottomMessage, 0, 22, Color.FromArgb(68, 8, 0)), new Point(76, 0));
                 }
-                BottomBox = DrawString(BottomBox, BottomMessage, 76, 22, Color.FromArgb(68, 8, 0)) as Bitmap;
             }
             using (Graphics g = Graphics.FromImage(Box))
             {
@@ -420,21 +462,23 @@ namespace FEITS
                         g2.DrawImage(Resources.KeyPress, new Point(TextBoxes[CB_TB.SelectedIndex].Width - 30, 32));
                     }
                 }
-                g.DrawImage(TopBox, new Point(3, 3));
-                g.DrawImage(BottomBox, new Point(3, Box.Height - BottomBox.Height + 2));
+                if (CHK_UseBackgrounds.Checked)
+                    g.DrawImage(BACKGROUND_IMAGE, new Point(0, 0));
+                g.DrawImage(TopBox, new Point(10, 3));
+                g.DrawImage(BottomBox, new Point(10, Box.Height - BottomBox.Height + 2));
                 if (TopMessage != string.Empty && CHAR_A != string.Empty)
                 {
                     string TopName = Names.ContainsKey(CHAR_A) ? Names[CHAR_A] : (CHAR_A == "username" ? PLAYER_NAME : CHAR_A);
                     int NameLen = GetLength(TopName);
                     Bitmap TopNameBox = DrawString(Resources.NameBox, TopName, Resources.NameBox.Width / 2 - NameLen / 2, 16, Color.FromArgb(253, 234, 177)) as Bitmap; // Center Name in NameBox
-                    g.DrawImage(TopNameBox, new Point(0, TopBox.Height - (TopNameBox.Height - 20)));
+                    g.DrawImage(TopNameBox, new Point(7, TopBox.Height - (TopNameBox.Height - 20)));
                 }
                 if (BottomMessage != string.Empty && CHAR_B != string.Empty)
                 {
                     string BottomName = Names.ContainsKey(CHAR_B) ? Names[CHAR_B] : (CHAR_B == "username" ? PLAYER_NAME : CHAR_B);
                     int NameLen = GetLength(BottomName);
                     Bitmap BottomNameBox = DrawString(Resources.NameBox, BottomName, Resources.NameBox.Width / 2 - NameLen / 2, 16, Color.FromArgb(253, 234, 177)) as Bitmap; // Center Name in NameBox
-                    g.DrawImage(BottomNameBox, new Point(0, Box.Height - BottomBox.Height - 14));
+                    g.DrawImage(BottomNameBox, new Point(7, Box.Height - BottomBox.Height - 14));
                 }
             }
             return Box as Image;
@@ -442,9 +486,10 @@ namespace FEITS
 
         private Image GetCharacterCriticalImage(string CName, Color HairColor)
         {
+            bool USER = CName == "username";
             string hairname = "_ct_髪";
             string dat_id = "FSID_CT_" + CName;
-            if (CName == "username")
+            if (USER)
             {
                 dat_id = "FSID_CT_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
@@ -460,6 +505,10 @@ namespace FEITS
                 C = new Bitmap(1, 1);
             using (Graphics g = Graphics.FromImage(C))
             {
+                if (USER && CB_FacialFeature.SelectedIndex > 0)
+                {
+                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_ct_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                }
                 if (ResourceList.Contains(hairname))
                 {
                     Bitmap hair = Resources.ResourceManager.GetObject(hairname) as Bitmap;
@@ -473,9 +522,10 @@ namespace FEITS
 
         private Image GetCharacterStageImage(string CName, string CEmo, Color HairColor, bool Slot1)
         {
+            bool USER = CName == "username";
             string hairname = "_st_髪";
             string dat_id = "FSID_ST_" + CName;
-            if (CName == "username")
+            if (USER)
             {
                 dat_id = "FSID_ST_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
@@ -492,10 +542,9 @@ namespace FEITS
                 C = new Bitmap(1, 1);
             using (Graphics g = Graphics.FromImage(C))
             {
-                if (ResourceList.Contains(hairname))
+                if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    Bitmap hair = Resources.ResourceManager.GetObject(hairname) as Bitmap;
-                    g.DrawImage(ColorHair(hair, HairColor), new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 for (int i = 1; i < Emos.Length; i++)
                 {
@@ -509,6 +558,15 @@ namespace FEITS
                         g.DrawImage(Resources.ResourceManager.GetObject(exresname) as Image, new Point(BitConverter.ToUInt16(FaceData[dat_id], 0x38), BitConverter.ToUInt16(FaceData[dat_id], 0x3A)));
                     }
                 }
+                if (ResourceList.Contains(hairname))
+                {
+                    Bitmap hair = Resources.ResourceManager.GetObject(hairname) as Bitmap;
+                    g.DrawImage(ColorHair(hair, HairColor), new Point(0, 0));
+                }
+                if (USER && CB_Accessory.SelectedIndex > 0)
+                {
+                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, new Point(133, 28));
+                }
             }
             if (Slot1)
                 C.RotateFlip(RotateFlipType.RotateNoneFlipX);
@@ -517,12 +575,12 @@ namespace FEITS
 
         private Image GetCharacterBUImage(string CName, string CEmo, Color HairColor, bool Crop)
         {
-            bool USER = CName == "username";
             string hairname = "_bu_髪";
             string dat_id = "FSID_BU_" + CName;
+            bool USER = CName == "username";
             if (USER)
             {
-                dat_id = "FSID_ST_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                dat_id = "FSID_BU_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
@@ -537,14 +595,13 @@ namespace FEITS
                 C = new Bitmap(1, 1);
             using (Graphics g = Graphics.FromImage(C))
             {
-                if (ResourceList.Contains(hairname))
+                if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    Bitmap hair = Resources.ResourceManager.GetObject(hairname) as Bitmap;
-                    g.DrawImage(ColorHair(hair, HairColor), new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 for (int i = 1; i < Emos.Length; i++)
                 {
-                    string exresname = CName + "_st_" + Emos[i];
+                    string exresname = CName + "_bu_" + Emos[i];
                     if (Emos[i] == "汗" && ResourceList.Contains(exresname))
                     {
                         g.DrawImage(Resources.ResourceManager.GetObject(exresname) as Image, new Point(BitConverter.ToUInt16(FaceData[dat_id], 0x40), BitConverter.ToUInt16(FaceData[dat_id], 0x42)));
@@ -554,13 +611,23 @@ namespace FEITS
                         g.DrawImage(Resources.ResourceManager.GetObject(exresname) as Image, new Point(BitConverter.ToUInt16(FaceData[dat_id], 0x38), BitConverter.ToUInt16(FaceData[dat_id], 0x3A)));
                     }
                 }
+                if (ResourceList.Contains(hairname))
+                {
+                    Bitmap hair = Resources.ResourceManager.GetObject(hairname) as Bitmap;
+                    g.DrawImage(ColorHair(hair, HairColor), new Point(0, 0));
+                }
+                if (USER && CB_Accessory.SelectedIndex > 0)
+                {
+                    Point Acc = new Point[] { new Point(66, 5), new Point(65, 21) }[CB_Kamui.SelectedIndex - 2];
+                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, Acc);
+                }
             }
             if (Crop)
             {
-                Bitmap Cropped = USER ? new Bitmap(70, 49) : new Bitmap(BitConverter.ToUInt16(FaceData[dat_id], 0x34), BitConverter.ToUInt16(FaceData[dat_id], 0x36));
+                Bitmap Cropped = new Bitmap(BitConverter.ToUInt16(FaceData[dat_id], 0x34), BitConverter.ToUInt16(FaceData[dat_id], 0x36));
                 using (Graphics g = Graphics.FromImage(Cropped))
                 {
-                    g.DrawImage(C, USER ? new Point(-(BitConverter.ToUInt16(FaceData[dat_id], 0x38) - Cropped.Width), -((new int[4] { BitConverter.ToUInt16(FaceData[dat_id], 0x3A), BitConverter.ToUInt16(FaceData[dat_id], 0x3A), 52, 50 })[CB_Kamui.SelectedIndex])) : new Point(-BitConverter.ToUInt16(FaceData[dat_id], 0x30), -BitConverter.ToUInt16(FaceData[dat_id], 0x32)));
+                    g.DrawImage(C, new Point(-BitConverter.ToUInt16(FaceData[dat_id], 0x30), -BitConverter.ToUInt16(FaceData[dat_id], 0x32)));
                 }
                 C = Cropped;
             }
@@ -602,6 +669,43 @@ namespace FEITS
         private static byte BlendOverlay(byte Src, byte Dst)
         {
             return ((Dst < 128) ? (byte)Math.Max(Math.Min((Src / 255.0f * Dst / 255.0f) * 255.0f * 2, 255), 0) : (byte)Math.Max(Math.Min(255 - ((255 - Src) / 255.0f * (255 - Dst) / 255.0f) * 255.0f * 2, 255), 0));
+        }
+
+        private Image Fade(Image BaseImage)
+        {
+
+            Bitmap bmp = BaseImage as Bitmap;
+            Rectangle rect = new Rectangle(0, 0, bmp.Width, bmp.Height);
+            BitmapData bmpData = bmp.LockBits(rect, ImageLockMode.ReadWrite, bmp.PixelFormat);
+
+            IntPtr ptr = bmpData.Scan0;
+
+            int bytes = Math.Abs(bmpData.Stride) * bmp.Height;
+            byte[] rgbaValues = new byte[bytes];
+
+            // Copy the RGB values into the array.
+            System.Runtime.InteropServices.Marshal.Copy(ptr, rgbaValues, 0, bytes);
+
+            double BLACK_A = 113.0 / 255.0;
+
+            for (int i = 0; i < rgbaValues.Length; i += 4)
+            {
+                if (rgbaValues[i + 3] > 0)
+                {
+                    double DST_A = (double)(rgbaValues[i + 3]) / 255.0;
+                    double FINAL_A = BLACK_A + (DST_A) * (1.0 - BLACK_A);
+                    // rgbaValues[i + 3] = (byte)Math.Round((FINAL_A) * 255.0);
+                    rgbaValues[i + 2] = (byte)Math.Round(((((double)(rgbaValues[i + 2]) / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0);
+                    rgbaValues[i + 1] = (byte)Math.Round(((((double)(rgbaValues[i + 1]) / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0); ;
+                    rgbaValues[i + 0] = (byte)Math.Round(((((double)(rgbaValues[i + 0]) / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0); ;
+                }
+            }
+            // Copy the RGB values back to the bitmap
+            System.Runtime.InteropServices.Marshal.Copy(rgbaValues, 0, ptr, bytes);
+
+            // Unlock the bits.
+            bmp.UnlockBits(bmpData);
+            return bmp as Image;
         }
 
         private Image DrawString(Image BaseImage, string Message, int StartX, int StartY, Color? TC = null)
@@ -671,7 +775,7 @@ namespace FEITS
             if (CUR_INDEX > 0)
                 CUR_INDEX--;
             ResetParameters();
-            for (int i = 0; i <= CUR_INDEX; i++)
+            for (int i = 0; i < CUR_INDEX; i++)
             {
                 UpdateParse(Messages[i]);
             }
@@ -805,6 +909,29 @@ namespace FEITS
             HAS_PERMS = SET_TYPE = false;
             EMOTION_A = EMOTION_B = DEFAULT_EMOTION;
             CONVERSATION_TYPE = ConversationTypes.TYPE_1;
+        }
+
+        private void CHK_UseBackgrounds_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CHK_UseBackgrounds.Checked)
+            {
+                BACKGROUND_IMAGE = Resources.SupportBG.Clone() as Bitmap;
+                B_Reload_Click(sender, e);
+                MessageBox.Show("Backgrounds enabled." + Environment.NewLine + "Drag/drop an image onto the Picture Box to change the background." + Environment.NewLine + "Uncheck and Recheck this box to reset the background to the default one.", "Alert");
+            }
+            else
+            {
+                B_Reload_Click(sender, e);
+            }
+        }
+
+        private void CB_Kamui_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CB_Kamui.SelectedIndex < 2 && CB_Accessory.SelectedIndex > 0)
+            {
+                    CB_Accessory.SelectedIndex = 0;
+            }
+            CB_Accessory.Enabled = LBL_Accessory.Enabled = CB_Kamui.SelectedIndex > 1;
         }
     }
 

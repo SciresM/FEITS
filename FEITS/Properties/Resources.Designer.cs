@@ -4481,6 +4481,16 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SupportBG {
+            get {
+                object obj = ResourceManager.GetObject("SupportBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TextBox {
             get {
                 object obj = ResourceManager.GetObject("TextBox", resourceCulture);
@@ -5491,6 +5501,176 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap アズール_bu_あらら {
+            get {
+                object obj = ResourceManager.GetObject("アズール_bu_あらら", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_bu_キメ {
+            get {
+                object obj = ResourceManager.GetObject("アズール_bu_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_bu_怒 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_bu_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_bu_汗 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_bu_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_bu_照 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_bu_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_bu_笑 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_bu_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_bu_苦 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_bu_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_bu_通常 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_bu_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_ct_ベース {
+            get {
+                object obj = ResourceManager.GetObject("アズール_ct_ベース", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_st_あらら {
+            get {
+                object obj = ResourceManager.GetObject("アズール_st_あらら", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_st_キメ {
+            get {
+                object obj = ResourceManager.GetObject("アズール_st_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_st_怒 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_st_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_st_汗 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_st_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_st_照 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_st_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_st_笑 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_st_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_st_苦 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_st_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap アズール_st_通常 {
+            get {
+                object obj = ResourceManager.GetObject("アズール_st_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap アドベンチャラー男_bu_キメ {
             get {
                 object obj = ResourceManager.GetObject("アドベンチャラー男_bu_キメ", resourceCulture);
@@ -6404,6 +6584,156 @@ namespace FEITS.Properties {
         internal static System.Drawing.Bitmap ウィリアム_st_通常 {
             get {
                 object obj = ResourceManager.GetObject("ウィリアム_st_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_bu_キメ {
+            get {
+                object obj = ResourceManager.GetObject("ウード_bu_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_bu_怒 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_bu_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_bu_汗 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_bu_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_bu_照 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_bu_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_bu_笑 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_bu_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_bu_苦 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_bu_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_bu_通常 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_bu_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_ct_ベース {
+            get {
+                object obj = ResourceManager.GetObject("ウード_ct_ベース", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_st_キメ {
+            get {
+                object obj = ResourceManager.GetObject("ウード_st_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_st_怒 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_st_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_st_汗 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_st_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_st_照 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_st_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_st_笑 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_st_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_st_苦 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_st_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ウード_st_通常 {
+            get {
+                object obj = ResourceManager.GetObject("ウード_st_通常", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -13971,6 +14301,196 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_キメ {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_企み {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_企み", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_怒 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_拗ね {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_拗ね", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_汗 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_照 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_笑 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_苦 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_bu_通常 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_bu_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_ct_ベース {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_ct_ベース", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_キメ {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_企み {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_企み", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_怒 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_拗ね {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_拗ね", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_汗 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_照 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_笑 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_苦 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap セレナ_st_通常 {
+            get {
+                object obj = ResourceManager.GetObject("セレナ_st_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ゼロ_bu_キメ {
             get {
                 object obj = ResourceManager.GetObject("ゼロ_bu_キメ", resourceCulture);
@@ -21251,6 +21771,176 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ1_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ2_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ2_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ2_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ2_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ2_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ2_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ2_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_bu_アクセサリ2_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_bu_アクセサリ2_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap マイユニ女1_bu_髪0 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ女1_bu_髪0", resourceCulture);
@@ -21364,6 +22054,126 @@ namespace FEITS.Properties {
         internal static System.Drawing.Bitmap マイユニ女1_bu_髪9 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ女1_bu_髪9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_ct_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_ct_アクセサリ1_9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -21491,6 +22301,176 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ1_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ2_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ2_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ2_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ2_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ2_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ2_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ2_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女1_st_アクセサリ2_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女1_st_アクセサリ2_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap マイユニ女1_st_髪0 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ女1_st_髪0", resourceCulture);
@@ -21604,6 +22584,176 @@ namespace FEITS.Properties {
         internal static System.Drawing.Bitmap マイユニ女1_st_髪9 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ女1_st_髪9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ1_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ2_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ2_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ2_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ2_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ2_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ2_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ2_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_bu_アクセサリ2_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_bu_アクセサリ2_5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -21731,6 +22881,126 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_ct_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_ct_アクセサリ1_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap マイユニ女2_ct_髪0 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ女2_ct_髪0", resourceCulture);
@@ -21844,6 +23114,176 @@ namespace FEITS.Properties {
         internal static System.Drawing.Bitmap マイユニ女2_ct_髪9 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ女2_ct_髪9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ1_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ2_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ2_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ2_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ2_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ2_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ2_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ2_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ女2_st_アクセサリ2_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ女2_st_アクセサリ2_5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -21971,6 +23411,126 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_bu_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_bu_アクセサリ1_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap マイユニ男1_bu_髪0 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ男1_bu_髪0", resourceCulture);
@@ -22084,6 +23644,126 @@ namespace FEITS.Properties {
         internal static System.Drawing.Bitmap マイユニ男1_bu_髪9 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ男1_bu_髪9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_ct_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_ct_アクセサリ1_9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -22211,6 +23891,126 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男1_st_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男1_st_アクセサリ1_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap マイユニ男1_st_髪0 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ男1_st_髪0", resourceCulture);
@@ -22324,6 +24124,126 @@ namespace FEITS.Properties {
         internal static System.Drawing.Bitmap マイユニ男1_st_髪9 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ男1_st_髪9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_bu_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_bu_アクセサリ1_9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -22451,6 +24371,126 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_ct_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_ct_アクセサリ1_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap マイユニ男2_ct_髪0 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ男2_ct_髪0", resourceCulture);
@@ -22564,6 +24604,126 @@ namespace FEITS.Properties {
         internal static System.Drawing.Bitmap マイユニ男2_ct_髪9 {
             get {
                 object obj = ResourceManager.GetObject("マイユニ男2_ct_髪9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_1 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_10 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_11 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_12 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_2 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_3 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_4 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_5 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_6 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_7 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_8 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap マイユニ男2_st_アクセサリ1_9 {
+            get {
+                object obj = ResourceManager.GetObject("マイユニ男2_st_アクセサリ1_9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -28131,6 +30291,166 @@ namespace FEITS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_bu_キメ {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_bu_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_bu_怒 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_bu_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_bu_汗 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_bu_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_bu_照 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_bu_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_bu_笑 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_bu_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_bu_笑2 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_bu_笑2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_bu_苦 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_bu_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_bu_通常 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_bu_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_st_キメ {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_st_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_st_怒 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_st_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_st_汗 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_st_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_st_照 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_st_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_st_笑 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_st_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_st_笑2 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_st_笑2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_st_苦 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_st_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 善ハイドラ_st_通常 {
+            get {
+                object obj = ResourceManager.GetObject("善ハイドラ_st_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap 大商人男_bu_キメ {
             get {
                 object obj = ResourceManager.GetObject("大商人男_bu_キメ", resourceCulture);
@@ -29384,6 +31704,186 @@ namespace FEITS.Properties {
         internal static System.Drawing.Bitmap 弓聖男_st_通常 {
             get {
                 object obj = ResourceManager.GetObject("弓聖男_st_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_キメ {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_怒 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_汗 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_照 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_笑 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_苦 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_苦2 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_苦2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_苦3 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_苦3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_bu_通常 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_bu_通常", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_キメ {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_キメ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_怒 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_怒", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_汗 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_汗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_照 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_照", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_笑 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_笑", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_苦 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_苦", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_苦2 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_苦2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_苦3 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_苦3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap 影リリス_st_通常 {
+            get {
+                object obj = ResourceManager.GetObject("影リリス_st_通常", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
