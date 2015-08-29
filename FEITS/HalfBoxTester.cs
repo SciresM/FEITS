@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,7 +14,7 @@ namespace FEITS
         private bool[] ValidCharacters;
         private FontCharacter[] Characters;
 
-        private Image[] TextBoxes = new Image[] { Resources.HalfBox, Resources.HalfBox_Nohr, Resources.HalfBox_Hoshido };
+        private Image[] TextBoxes = { Resources.HalfBox, Resources.HalfBox_Nohr, Resources.HalfBox_Hoshido };
 
         public HalfBoxTester(bool[] VC, FontCharacter[] C)
         {
@@ -51,22 +49,22 @@ namespace FEITS
             Bitmap NewImage = BaseImage.Clone() as Bitmap;
             using (Graphics g = Graphics.FromImage(NewImage))
             {
-                for (int i = 0; i < Message.Length; i++)
+                foreach (char c in Message)
                 {
-                    if (Message[i] == '\n')
+                    if (c == '\n')
                     {
                         CurY += 20;
                         CurX = StartX;
                     }
                     else
                     {
-                        FontCharacter cur = Characters[GetValue(Message[i])];
+                        FontCharacter cur = Characters[GetValue(c)];
                         g.DrawImage(cur.GetGlyph(TextColor), new Point(CurX, CurY - cur.CropHeight));
                         CurX += cur.CropWidth;
                     }
                 }
             }
-            return NewImage as Image;
+            return NewImage;
         }
 
         private ushort GetValue(char c)
@@ -78,15 +76,12 @@ namespace FEITS
         {
             bool invalids = false;
             List<char> inv = new List<char>();
-            for (int i = 0; i < RTB_Line.Text.Length; i++)
+            foreach (char c in RTB_Line.Text.Where(c => !ValidCharacters[GetValue(c)]))
             {
-                if (!ValidCharacters[GetValue(RTB_Line.Text[i])])
-                {
-                    if (!invalids)
-                        invalids = true;
-                    if (!inv.Contains(RTB_Line.Text[i]))
-                        inv.Add(RTB_Line.Text[i]);
-                }
+                if (!invalids)
+                    invalids = true;
+                if (!inv.Contains(c))
+                    inv.Add(c);
             }
             if (invalids)
             {

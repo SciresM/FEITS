@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Globalization;
 using System.Linq;
-using System.Text;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 using FEITS.Properties;
@@ -19,7 +18,7 @@ namespace FEITS
 
         public List<cbItem>[] Characters = new List<cbItem>[3];
         
-        public string[] Prefixes = new string[] { "st", "bu", "ct" };
+        public string[] Prefixes = { "st", "bu", "ct" };
 
         private Color HAIR_COLOR;
         private string CHARACTER;
@@ -28,12 +27,12 @@ namespace FEITS
         private Control[] Emotion_Spec;
         private Control[] Kamui_Spec;
 
-        private bool loaded = false;
+        private bool loaded;
 
         private Dictionary<string, int> DefaultHairs = new Dictionary<string, int>();
         private Dictionary<string, byte[]> FaceData;
-        private string[] EyeStyles = new string[] { "a", "b", "c", "d", "e", "f", "g" };
-        private string[] Kamuis = new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" };
+        private string[] EyeStyles = { "a", "b", "c", "d", "e", "f", "g" };
+        private string[] Kamuis = { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" };
 
         public PortraitGenerator(List<string> RL, Dictionary<string, string> N, Dictionary<string, byte[]> FD)
         {
@@ -42,19 +41,19 @@ namespace FEITS
             Emotion_Spec = new Control[] { LBL_Emotions, CB_Emotion, CHK_Blush, CHK_SweatDrop };
             Kamui_Spec = new Control[] { LBL_CharType, CB_Kamui, LBL_Eyes, CB_Eyes, LBL_HairStyle, CB_HairStyle, LBL_FacialFeature, CB_FacialFeature, LBL_Accessory, CB_Accessory };
 
-            this.ResourceList = RL;
-            this.Names = N;
-            this.FaceData = FD;
+            ResourceList = RL;
+            Names = N;
+            FaceData = FD;
 
             DefaultHairs = new Dictionary<string, int>();
             string[] HCs = Resources.HCs.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
             foreach (string HC in HCs)
             {
                 var H = HC.Split(new[] { '\t' });
-                DefaultHairs[H[0]] = int.Parse(H[1], System.Globalization.NumberStyles.AllowHexSpecifier);
+                DefaultHairs[H[0]] = int.Parse(H[1], NumberStyles.AllowHexSpecifier);
             }
             CB_HairColor.Items.Add("Custom");
-            CB_HairColor.Items.AddRange(DefaultHairs.Keys.Select(s => s as string).ToArray());
+            CB_HairColor.Items.AddRange(DefaultHairs.Keys.Select(s => s).ToArray());
 
             CB_PortraitStyle.Items.AddRange(new[] { "Standard", "Closeup", "Critical" });
 
@@ -66,12 +65,11 @@ namespace FEITS
                     if (Resource.Contains("_" + Prefixes[i] + "_"))
                     {
                         string Character = Resource.Substring(0, Resource.IndexOf("_" + Prefixes[i] + "_"));
-                        cbItem ncbi = new cbItem();
-                        ncbi.Value = Character;
-                        if (Names.ContainsKey(Character))
-                            ncbi.Text = Names[Character];
-                        else
-                            ncbi.Text = Character;
+                        cbItem ncbi = new cbItem
+                        {
+                            Value = Character,
+                            Text = Names.ContainsKey(Character) ? Names[Character] : Character
+                        };
                         if (!ncbi.Text.Contains("マイユニ") && ncbi.Text != "Kanna")
                         {
                             if (Characters[i].All(cbi => cbi.Text != ncbi.Text) && Characters[i].All(cbi => cbi.Value != ncbi.Value))
@@ -150,7 +148,7 @@ namespace FEITS
                 while (hc.Length < 7)
                     hc = hc + "0";
                 hc = hc.Replace("_", "0");
-                HAIR_COLOR = Color.FromArgb((int)(0xFF000000 | int.Parse(hc.Substring(1), System.Globalization.NumberStyles.AllowHexSpecifier)));
+                HAIR_COLOR = Color.FromArgb((int)(0xFF000000 | uint.Parse(hc.Substring(1), NumberStyles.AllowHexSpecifier)));
             }
             if (!loaded)
                 return;
@@ -166,12 +164,12 @@ namespace FEITS
                 while (hc.Length < 7)
                     hc = hc + "0";
                 hc = hc.Replace("_", "0");
-                HAIR_COLOR = Color.FromArgb((int)(0xFF000000 | int.Parse(hc.Substring(1), System.Globalization.NumberStyles.AllowHexSpecifier)));
+                HAIR_COLOR = Color.FromArgb((int)(0xFF000000 | uint.Parse(hc.Substring(1), NumberStyles.AllowHexSpecifier)));
             }
             else
             {
                 MTB_HairColor.Enabled = false;
-                HAIR_COLOR = Color.FromArgb((int)(0xFF000000 | DefaultHairs[CB_HairColor.Items[CB_HairColor.SelectedIndex] as string]));
+                HAIR_COLOR = Color.FromArgb((int)(0xFF000000 | (uint)DefaultHairs[CB_HairColor.Items[CB_HairColor.SelectedIndex] as string]));
             }
             if (!loaded)
                 return;
@@ -242,19 +240,17 @@ namespace FEITS
                 case "Critical":
                     PB_Portrait.Image = GetCharacterCriticalImage(CHARACTER, HAIR_COLOR);
                     break;
-                default:
-                    break;
             }
         }
 
         private Image GetCharacterCriticalImage(string CName, Color HairColor)
         {
             string hairname = "_ct_髪";
-            string dat_id = "FSID_CT_" + CName;
+            // string dat_id = "FSID_CT_" + CName;
             bool USER = CName == "username";
             if (USER)
             {
-                dat_id = "FSID_CT_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                // dat_id = "FSID_CT_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
@@ -270,7 +266,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_ct_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_ct_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 if (ResourceList.Contains(hairname))
                 {
@@ -290,7 +286,7 @@ namespace FEITS
             string dat_id = "FSID_ST_" + CName;
             if (USER)
             {
-                dat_id = "FSID_ST_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                dat_id = "FSID_ST_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
@@ -307,7 +303,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 for (int i = 1; i < Emos.Length; i++)
                 {
@@ -328,7 +324,7 @@ namespace FEITS
                 }
                 if (USER && CB_Accessory.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, new Point(133, 28));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, new Point(133, 28));
                 }
             }
             if (Slot1)
@@ -343,7 +339,7 @@ namespace FEITS
             string dat_id = "FSID_BU_" + CName;
             if (USER)
             {
-                dat_id = "FSID_BU_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                dat_id = "FSID_BU_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
@@ -360,7 +356,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 for (int i = 1; i < Emos.Length; i++)
                 {
@@ -381,8 +377,8 @@ namespace FEITS
                 }
                 if (USER && CB_Accessory.SelectedIndex > 0)
                 {
-                    Point Acc = new Point[] { new Point(66, 5), new Point(65, 21) }[CB_Kamui.SelectedIndex - 2];
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, Acc);
+                    Point Acc = new[] { new Point(66, 5), new Point(65, 21) }[CB_Kamui.SelectedIndex - 2];
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, Acc);
                 }
             }
             C.RotateFlip(RotateFlipType.RotateNoneFlipX);
@@ -401,7 +397,7 @@ namespace FEITS
             byte[] rgbaValues = new byte[bytes];
 
             // Copy the RGB values into the array.
-            System.Runtime.InteropServices.Marshal.Copy(ptr, rgbaValues, 0, bytes);
+            Marshal.Copy(ptr, rgbaValues, 0, bytes);
 
             for (int i = 0; i < rgbaValues.Length; i += 4)
             {
@@ -413,11 +409,11 @@ namespace FEITS
                 }
             }
             // Copy the RGB values back to the bitmap
-            System.Runtime.InteropServices.Marshal.Copy(rgbaValues, 0, ptr, bytes);
+            Marshal.Copy(rgbaValues, 0, ptr, bytes);
 
             // Unlock the bits.
             bmp.UnlockBits(bmpData);
-            return bmp as Image;
+            return bmp;
         }
 
         private static byte BlendOverlay(byte Src, byte Dst)
@@ -456,8 +452,8 @@ namespace FEITS
                     DefaultName += " (" + MTB_HairColor.Text.Substring(1) + ")";
                 DefaultName += "_";
             }
-            DefaultName +=  (CB_Character.Items[CB_Character.SelectedIndex] as cbItem).Text as string;
-            DefaultName += "_" + CB_PortraitStyle.Items[CB_PortraitStyle.SelectedIndex] as string;
+            DefaultName +=  (CB_Character.Items[CB_Character.SelectedIndex] as cbItem).Text;
+            DefaultName += "_" + CB_PortraitStyle.Items[CB_PortraitStyle.SelectedIndex];
             if (CB_PortraitStyle.Items[CB_PortraitStyle.SelectedIndex] as string != "Critical")
                 DefaultName += "_" + string.Join("-", EMOTIONS.Split(new[] { "," }, StringSplitOptions.RemoveEmptyEntries));
             DefaultName += ".png";
