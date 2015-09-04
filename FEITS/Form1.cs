@@ -1,14 +1,15 @@
 ﻿using System;
-using System.IO;
+using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Media;
+using System.Resources;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Threading;
 using System.Windows.Forms;
 
 using FEITS.Properties;
@@ -17,7 +18,7 @@ namespace FEITS
 {
     public partial class Form1 : Form
     {
-        private Image[] Images = new Image[] { Resources.Awakening_0, Resources.Awakening_1 };
+        private Image[] Images = { Resources.Awakening_0, Resources.Awakening_1 };
 
         private bool[] ValidCharacters;
         private FontCharacter[] Characters;
@@ -26,10 +27,10 @@ namespace FEITS
 
         private string PLAYER_NAME = "Kamui";
         private string RAW_MESSAGE = "$t1$Wmエリーゼ|3$w0|$Wsエリーゼ|$Wa$Eびっくり,汗|This is an example conversation.$k$p$Wmサクラ|7$w0|$Wsサクラ|$Wa$E怒,汗|It takes place between\nSakura and Elise.$k";
-        private bool HAS_PERMS = false;
-        private bool SET_TYPE = false;
+        private bool HAS_PERMS;
+        private bool SET_TYPE;
 
-        private int CUR_INDEX = 0;
+        private int CUR_INDEX;
         private List<string> Messages = new List<string>();
         private string CHAR_A = string.Empty;
         private string CHAR_B = string.Empty;
@@ -43,10 +44,10 @@ namespace FEITS
         private Image BACKGROUND_IMAGE;
 
 
-        private string[] EyeStyles = new string[] { "a", "b", "c", "d", "e", "f", "g" };
-        private string[] Kamuis = new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" };
+        private string[] EyeStyles = { "a", "b", "c", "d", "e", "f", "g" };
+        private string[] Kamuis = { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" };
 
-        private Image[] TextBoxes = new Image[] { Resources.TextBox, Resources.TextBox_Nohr, Resources.TextBox_Hoshido };
+        private Image[] TextBoxes = { Resources.TextBox, Resources.TextBox_Nohr, Resources.TextBox_Hoshido };
 
         List<string> ResourceList = new List<string>();
 
@@ -83,8 +84,8 @@ namespace FEITS
                 Array.Copy(Resources.faces, i * 0x48, Dat, 0, 0x48);
                 FaceData[FIDs[i]] = Dat;
             }
-            System.Resources.ResourceSet set = Resources.ResourceManager.GetResourceSet(System.Globalization.CultureInfo.CurrentCulture, true, true);
-            foreach (System.Collections.DictionaryEntry o in set)
+            ResourceSet set = Resources.ResourceManager.GetResourceSet(CultureInfo.CurrentCulture, true, true);
+            foreach (DictionaryEntry o in set)
                 ResourceList.Add(o.Key as string);
             Resources.ResourceManager.ReleaseAllResources();
 
@@ -101,8 +102,8 @@ namespace FEITS
             BACKGROUND_IMAGE = Resources.SupportBG.Clone() as Bitmap;
 
             PB_TextBox.AllowDrop = true;
-            PB_TextBox.DragEnter += new DragEventHandler(PB_TextBox_DragEnter);
-            PB_TextBox.DragDrop += new DragEventHandler(PB_TextBox_DragDrop);
+            PB_TextBox.DragEnter += PB_TextBox_DragEnter;
+            PB_TextBox.DragDrop += PB_TextBox_DragDrop;
             B_Reload_Click(null, null);
         }
 
@@ -125,7 +126,7 @@ namespace FEITS
                         B_Reload_Click(sender, e);
                     }
                 }
-                catch (Exception ex)
+                catch
                 {
                     // Do nothing
                 }
@@ -136,15 +137,12 @@ namespace FEITS
         {
             bool invalids = false;
             List<char> inv = new List<char>();
-            for (int i = 0; i < RTB_Line.Text.Length; i++)
+            foreach (char c in RTB_Line.Text.Where(c => !ValidCharacters[GetValue(c)]))
             {
-                if (!ValidCharacters[GetValue(RTB_Line.Text[i])])
-                {
-                    if (!invalids)
-                        invalids = true;
-                    if (!inv.Contains(RTB_Line.Text[i]))
-                        inv.Add(RTB_Line.Text[i]);
-                }
+                if (!invalids)
+                    invalids = true;
+                if (!inv.Contains(c))
+                    inv.Add(c);
             }
             if (invalids)
             {
@@ -310,10 +308,9 @@ namespace FEITS
         private Tuple<string, Command> ParseCommand(string Message, int Offset)
         {
             string trunc = Message.Substring(Offset);
-            string old = Message;
-            string[] NoParams = new string[] { "$Wa", "$Wc", "$a", "$Nu", "$N0", "$N1", "$t0", "$t1", "$k", "$p" };
-            string[] SingleParams = new string[] { "$E", "$Sbs", "$Svp", "$Sre", "$Fw", "$Ws", "$VF", "$Ssp", "$Fo", "$VNMPID", "$Fi", "$b", "$Wd", "$w", "$l" };
-            string[] DoubleParams = new string[] { "$Wm", "$Sbv", "$Sbp", "$Sls", "$Slp" };
+            string[] NoParams = { "$Wa", "$Wc", "$a", "$Nu", "$N0", "$N1", "$t0", "$t1", "$k", "$p" };
+            string[] SingleParams = { "$E", "$Sbs", "$Svp", "$Sre", "$Fw", "$Ws", "$VF", "$Ssp", "$Fo", "$VNMPID", "$Fi", "$b", "$Wd", "$w", "$l" };
+            string[] DoubleParams = { "$Wm", "$Sbv", "$Sbp", "$Sls", "$Slp" };
             Command CMD = new Command();
             foreach (string delim in NoParams)
             {
@@ -375,10 +372,7 @@ namespace FEITS
 
         private Image RenderBox(string Message)
         {
-            if (CONVERSATION_TYPE == ConversationTypes.TYPE_1)
-                return RenderTypeOne(Message);
-            else
-                return RenderTypeZero();
+            return CONVERSATION_TYPE == ConversationTypes.TYPE_1 ? RenderTypeOne(Message) : RenderTypeZero();
         }
 
         private Image RenderTypeOne(string Message)
@@ -408,17 +402,17 @@ namespace FEITS
                 g.DrawImage(TB, new Point(10, Box.Height - TB.Height + 2));
                 if (CHAR_ACTIVE != string.Empty)
                 {
-                    if (CHAR_ACTIVE == CHAR_B)
-                        g.DrawImage(NB, new Point(Box.Width - NB.Width-6, Box.Height - TB.Height - 14));
-                    else
-                        g.DrawImage(NB, new Point(7, Box.Height - TB.Height - 14));
+                    g.DrawImage(NB,
+                        CHAR_ACTIVE == CHAR_B
+                            ? new Point(Box.Width - NB.Width - 6, Box.Height - TB.Height - 14)
+                            : new Point(7, Box.Height - TB.Height - 14));
                 }
                 if (CUR_INDEX < Messages.Count - 1)
                 {
                     g.DrawImage(Resources.KeyPress, new Point(Box.Width - 33 , Box.Height - TB.Height + 32));
                 }
             }
-            return Box as Image;
+            return Box;
         }
 
         private Image RenderTypeZero()
@@ -481,7 +475,7 @@ namespace FEITS
                     g.DrawImage(BottomNameBox, new Point(7, Box.Height - BottomBox.Height - 14));
                 }
             }
-            return Box as Image;
+            return Box;
         }
 
         private Image GetCharacterCriticalImage(string CName, Color HairColor)
@@ -491,7 +485,7 @@ namespace FEITS
             string dat_id = "FSID_CT_" + CName;
             if (USER)
             {
-                dat_id = "FSID_CT_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                dat_id = "FSID_CT_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
@@ -507,7 +501,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_ct_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_ct_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 if (ResourceList.Contains(hairname))
                 {
@@ -527,7 +521,7 @@ namespace FEITS
             string dat_id = "FSID_ST_" + CName;
             if (USER)
             {
-                dat_id = "FSID_ST_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                dat_id = "FSID_ST_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
@@ -544,7 +538,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 for (int i = 1; i < Emos.Length; i++)
                 {
@@ -565,7 +559,7 @@ namespace FEITS
                 }
                 if (USER && CB_Accessory.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, new Point(133, 28));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, new Point(133, 28));
                 }
             }
             if (Slot1)
@@ -580,7 +574,7 @@ namespace FEITS
             bool USER = CName == "username";
             if (USER)
             {
-                dat_id = "FSID_BU_" + (new string[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                dat_id = "FSID_BU_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
                 CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
@@ -597,7 +591,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 for (int i = 1; i < Emos.Length; i++)
                 {
@@ -618,8 +612,8 @@ namespace FEITS
                 }
                 if (USER && CB_Accessory.SelectedIndex > 0)
                 {
-                    Point Acc = new Point[] { new Point(66, 5), new Point(65, 21) }[CB_Kamui.SelectedIndex - 2];
-                    g.DrawImage(Resources.ResourceManager.GetObject((new string[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, Acc);
+                    Point Acc = new[] { new Point(66, 5), new Point(65, 21) }[CB_Kamui.SelectedIndex - 2];
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, Acc);
                 }
             }
             if (Crop)
@@ -647,7 +641,7 @@ namespace FEITS
             byte[] rgbaValues = new byte[bytes];
 
             // Copy the RGB values into the array.
-            System.Runtime.InteropServices.Marshal.Copy(ptr, rgbaValues, 0, bytes);
+            Marshal.Copy(ptr, rgbaValues, 0, bytes);
 
             for (int i = 0; i < rgbaValues.Length; i += 4)
             {
@@ -659,11 +653,11 @@ namespace FEITS
                 }
             }
             // Copy the RGB values back to the bitmap
-            System.Runtime.InteropServices.Marshal.Copy(rgbaValues, 0, ptr, bytes);
+            Marshal.Copy(rgbaValues, 0, ptr, bytes);
 
             // Unlock the bits.
             bmp.UnlockBits(bmpData);
-            return bmp as Image;
+            return bmp;
         }
 
         private static byte BlendOverlay(byte Src, byte Dst)
@@ -684,28 +678,26 @@ namespace FEITS
             byte[] rgbaValues = new byte[bytes];
 
             // Copy the RGB values into the array.
-            System.Runtime.InteropServices.Marshal.Copy(ptr, rgbaValues, 0, bytes);
+            Marshal.Copy(ptr, rgbaValues, 0, bytes);
 
-            double BLACK_A = 113.0 / 255.0;
+            const double BLACK_A = 113.0 / 255.0;
 
             for (int i = 0; i < rgbaValues.Length; i += 4)
             {
-                if (rgbaValues[i + 3] > 0)
-                {
-                    double DST_A = (double)(rgbaValues[i + 3]) / 255.0;
-                    double FINAL_A = BLACK_A + (DST_A) * (1.0 - BLACK_A);
-                    // rgbaValues[i + 3] = (byte)Math.Round((FINAL_A) * 255.0);
-                    rgbaValues[i + 2] = (byte)Math.Round(((((double)(rgbaValues[i + 2]) / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0);
-                    rgbaValues[i + 1] = (byte)Math.Round(((((double)(rgbaValues[i + 1]) / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0); ;
-                    rgbaValues[i + 0] = (byte)Math.Round(((((double)(rgbaValues[i + 0]) / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0); ;
-                }
+                if (rgbaValues[i + 3] <= 0) continue;
+                double DST_A = rgbaValues[i + 3] / 255.0;
+                // double FINAL_A = BLACK_A + (DST_A) * (1.0 - BLACK_A);
+                // rgbaValues[i + 3] = (byte)Math.Round((FINAL_A) * 255.0);
+                rgbaValues[i + 2] = (byte)Math.Round((((rgbaValues[i + 2] / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0);
+                rgbaValues[i + 1] = (byte)Math.Round((((rgbaValues[i + 1] / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0);
+                rgbaValues[i + 0] = (byte)Math.Round((((rgbaValues[i + 0] / 255.0)) * (DST_A) * (1.0 - BLACK_A)) * 255.0);
             }
             // Copy the RGB values back to the bitmap
-            System.Runtime.InteropServices.Marshal.Copy(rgbaValues, 0, ptr, bytes);
+            Marshal.Copy(rgbaValues, 0, ptr, bytes);
 
             // Unlock the bits.
             bmp.UnlockBits(bmpData);
-            return bmp as Image;
+            return bmp;
         }
 
         private Image DrawString(Image BaseImage, string Message, int StartX, int StartY, Color? TC = null)
@@ -716,22 +708,22 @@ namespace FEITS
             Bitmap NewImage = BaseImage.Clone() as Bitmap;
             using (Graphics g = Graphics.FromImage(NewImage))
             {
-                for (int i = 0; i < Message.Length; i++)
+                foreach (char c in Message)
                 {
-                    if (Message[i] == '\n')
+                    if (c == '\n')
                     {
                         CurY += 20;
                         CurX = StartX;
                     }
                     else
                     {
-                        FontCharacter cur = Characters[GetValue(Message[i])];
+                        FontCharacter cur = Characters[GetValue(c)];
                         g.DrawImage(cur.GetGlyph(TextColor), new Point(CurX, CurY - cur.CropHeight));
                         CurX += cur.CropWidth;
                     }
                 }
             }
-            return NewImage as Image;
+            return NewImage;
         }
 
         private ushort GetValue(char c)
@@ -741,13 +733,7 @@ namespace FEITS
 
         private int GetLength(string s)
         {
-            int len = 0;
-            for (int i = 0; i < s.Length; i++)
-            {
-                ushort val = GetValue(s[i]);
-                len += Math.Max(Characters[val].Width, Characters[val].CropWidth);
-            }
-            return len;
+            return s.Select(GetValue).Select(val => Math.Max(Characters[val].Width, Characters[val].CropWidth)).Sum();
         }
 
         private void TB_CharName_TextChanged(object sender, EventArgs e)
@@ -823,13 +809,13 @@ namespace FEITS
                 using (Graphics g = Graphics.FromImage(bmp))
                 {
                     int h = 0;
-                    for (int i = 0; i < Images.Count; i++)
+                    foreach (Image img in Images)
                     {
-                        g.DrawImage(Images[i], new Point(0, h));
-                        h += Images[i].Height;
+                        g.DrawImage(img, new Point(0, h));
+                        h += img.Height;
                     }
                 }
-                ToSave = bmp as Image;
+                ToSave = bmp;
             }
             else
             {
@@ -868,7 +854,7 @@ namespace FEITS
                 while (hc.Length < 7)
                     hc = hc + "0";
                 hc = hc.Replace("_", "0");
-                COLOR_A = Color.FromArgb((int)(0xFF000000 | int.Parse(hc.Substring(1), System.Globalization.NumberStyles.AllowHexSpecifier)));
+                COLOR_A = Color.FromArgb((int)(0xFF000000 | uint.Parse(hc.Substring(1), NumberStyles.AllowHexSpecifier)));
             }
         }
 
@@ -889,7 +875,7 @@ namespace FEITS
                 while (hc.Length < 7)
                     hc = hc + "0";
                 hc = hc.Replace("_", "0");
-                COLOR_B = Color.FromArgb((int)(0xFF000000 | int.Parse(hc.Substring(1), System.Globalization.NumberStyles.AllowHexSpecifier)));
+                COLOR_B = Color.FromArgb((int)(0xFF000000 | uint.Parse(hc.Substring(1), NumberStyles.AllowHexSpecifier)));
             }
         }
 
@@ -965,38 +951,38 @@ namespace FEITS
 
         public FontCharacter(byte[] Data, int ofs)
         {
-            this.Value = BitConverter.ToUInt16(Data, ofs + 0);
-            this.IMG = BitConverter.ToUInt16(Data, ofs + 2);
-            this.XOfs = BitConverter.ToUInt16(Data, ofs + 4);
-            this.YOfs = BitConverter.ToUInt16(Data, ofs + 6);
-            this.Width = Data[ofs + 8];
-            this.Height = Data[ofs + 9];
-            this.Padding1 = Data[ofs + 0xA];
-            this.CropHeight = Data[ofs + 0xB];
-            if (this.CropHeight > 0x7F)
-                this.CropHeight -= 256;
-            this.CropWidth = Data[ofs + 0xC];
-            if (this.CropWidth > 0x7F)
-                this.CropWidth -= 256;
-            this.Padding2 = new byte[0x3];
-            Array.Copy(Data, ofs + 0xD, this.Padding2, 0, 3);
+            Value = BitConverter.ToUInt16(Data, ofs + 0);
+            IMG = BitConverter.ToUInt16(Data, ofs + 2);
+            XOfs = BitConverter.ToUInt16(Data, ofs + 4);
+            YOfs = BitConverter.ToUInt16(Data, ofs + 6);
+            Width = Data[ofs + 8];
+            Height = Data[ofs + 9];
+            Padding1 = Data[ofs + 0xA];
+            CropHeight = Data[ofs + 0xB];
+            if (CropHeight > 0x7F)
+                CropHeight -= 256;
+            CropWidth = Data[ofs + 0xC];
+            if (CropWidth > 0x7F)
+                CropWidth -= 256;
+            Padding2 = new byte[0x3];
+            Array.Copy(Data, ofs + 0xD, Padding2, 0, 3);
 
-            this.Character = Encoding.Unicode.GetString(Data, ofs + 0, 2)[0];
+            Character = Encoding.Unicode.GetString(Data, ofs + 0, 2)[0];
         }
 
         public void SetGlyph(Image img)
         {
-            Bitmap crop = new Bitmap(this.Width, this.Height);
+            Bitmap crop = new Bitmap(Width, Height);
             using (Graphics g = Graphics.FromImage(crop))
             {
-                g.DrawImage(img as Bitmap, new Rectangle(0, 0, this.Width, this.Height), new Rectangle(this.XOfs, this.YOfs, this.Width, this.Height), GraphicsUnit.Pixel);
+                g.DrawImage(img as Bitmap, new Rectangle(0, 0, Width, Height), new Rectangle(XOfs, YOfs, Width, Height), GraphicsUnit.Pixel);
             }
-            this.Glyph = crop as Image;
+            Glyph = crop;
         }
 
         public Image GetGlyph(Color NewColor)
         {
-            Bitmap ColoredGlyph = this.Glyph as Bitmap;
+            Bitmap ColoredGlyph = Glyph as Bitmap;
 
             Rectangle rect = new Rectangle(0, 0, ColoredGlyph.Width, ColoredGlyph.Height);
             BitmapData bmpData = ColoredGlyph.LockBits(rect, ImageLockMode.ReadWrite, ColoredGlyph.PixelFormat);
@@ -1007,7 +993,7 @@ namespace FEITS
             byte[] rgbaValues = new byte[bytes];
 
             // Copy the RGB values into the array.
-            System.Runtime.InteropServices.Marshal.Copy(ptr, rgbaValues, 0, bytes);
+            Marshal.Copy(ptr, rgbaValues, 0, bytes);
 
             for (int i = 0; i < rgbaValues.Length; i += 4)
             {
@@ -1020,11 +1006,11 @@ namespace FEITS
             }
 
             // Copy the RGB values back to the bitmap
-            System.Runtime.InteropServices.Marshal.Copy(rgbaValues, 0, ptr, bytes);
+            Marshal.Copy(rgbaValues, 0, ptr, bytes);
 
             // Unlock the bits.
             ColoredGlyph.UnlockBits(bmpData);
-            return ColoredGlyph as Image;
+            return ColoredGlyph;
         }
     }
 }
