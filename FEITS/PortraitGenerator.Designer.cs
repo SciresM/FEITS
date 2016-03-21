@@ -41,7 +41,7 @@
             this.LBL_HairStyle = new System.Windows.Forms.Label();
             this.CB_Eyes = new System.Windows.Forms.ComboBox();
             this.LBL_Eyes = new System.Windows.Forms.Label();
-            this.CB_Kamui = new System.Windows.Forms.ComboBox();
+            this.CB_Corrin = new System.Windows.Forms.ComboBox();
             this.LBL_CharType = new System.Windows.Forms.Label();
             this.LBL_Emotions = new System.Windows.Forms.Label();
             this.CB_Emotion = new System.Windows.Forms.ComboBox();
@@ -144,7 +144,7 @@
             this.CB_HairStyle.Name = "CB_HairStyle";
             this.CB_HairStyle.Size = new System.Drawing.Size(43, 21);
             this.CB_HairStyle.TabIndex = 26;
-            this.CB_HairStyle.SelectedIndexChanged += new System.EventHandler(this.Kamui_Data_Changed);
+            this.CB_HairStyle.SelectedIndexChanged += new System.EventHandler(this.Corrin_Data_Changed);
             // 
             // LBL_HairStyle
             // 
@@ -165,7 +165,7 @@
             this.CB_Eyes.Name = "CB_Eyes";
             this.CB_Eyes.Size = new System.Drawing.Size(58, 21);
             this.CB_Eyes.TabIndex = 24;
-            this.CB_Eyes.SelectedIndexChanged += new System.EventHandler(this.Kamui_Data_Changed);
+            this.CB_Eyes.SelectedIndexChanged += new System.EventHandler(this.Corrin_Data_Changed);
             // 
             // LBL_Eyes
             // 
@@ -177,16 +177,16 @@
             this.LBL_Eyes.TabIndex = 23;
             this.LBL_Eyes.Text = "Eyes:";
             // 
-            // CB_Kamui
+            // CB_Corrin
             // 
-            this.CB_Kamui.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CB_Kamui.Enabled = false;
-            this.CB_Kamui.FormattingEnabled = true;
-            this.CB_Kamui.Location = new System.Drawing.Point(241, 561);
-            this.CB_Kamui.Name = "CB_Kamui";
-            this.CB_Kamui.Size = new System.Drawing.Size(84, 21);
-            this.CB_Kamui.TabIndex = 22;
-            this.CB_Kamui.SelectedIndexChanged += new System.EventHandler(this.Kamui_Data_Changed);
+            this.CB_Corrin.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CB_Corrin.Enabled = false;
+            this.CB_Corrin.FormattingEnabled = true;
+            this.CB_Corrin.Location = new System.Drawing.Point(241, 561);
+            this.CB_Corrin.Name = "CB_Corrin";
+            this.CB_Corrin.Size = new System.Drawing.Size(84, 21);
+            this.CB_Corrin.TabIndex = 22;
+            this.CB_Corrin.SelectedIndexChanged += new System.EventHandler(this.Corrin_Data_Changed);
             // 
             // LBL_CharType
             // 
@@ -251,7 +251,7 @@
             this.CB_Accessory.Name = "CB_Accessory";
             this.CB_Accessory.Size = new System.Drawing.Size(92, 21);
             this.CB_Accessory.TabIndex = 34;
-            this.CB_Accessory.SelectedIndexChanged += new System.EventHandler(this.Kamui_Data_Changed);
+            this.CB_Accessory.SelectedIndexChanged += new System.EventHandler(this.Corrin_Data_Changed);
             // 
             // LBL_Accessory
             // 
@@ -270,7 +270,7 @@
             this.CB_FacialFeature.Name = "CB_FacialFeature";
             this.CB_FacialFeature.Size = new System.Drawing.Size(134, 21);
             this.CB_FacialFeature.TabIndex = 32;
-            this.CB_FacialFeature.SelectedIndexChanged += new System.EventHandler(this.Kamui_Data_Changed);
+            this.CB_FacialFeature.SelectedIndexChanged += new System.EventHandler(this.Corrin_Data_Changed);
             // 
             // LBL_FacialFeature
             // 
@@ -298,7 +298,7 @@
             this.Controls.Add(this.LBL_HairStyle);
             this.Controls.Add(this.CB_Eyes);
             this.Controls.Add(this.LBL_Eyes);
-            this.Controls.Add(this.CB_Kamui);
+            this.Controls.Add(this.CB_Corrin);
             this.Controls.Add(this.LBL_CharType);
             this.Controls.Add(this.MTB_HairColor);
             this.Controls.Add(this.LBL_HairColor);
@@ -333,7 +333,7 @@
         private System.Windows.Forms.Label LBL_HairStyle;
         private System.Windows.Forms.ComboBox CB_Eyes;
         private System.Windows.Forms.Label LBL_Eyes;
-        private System.Windows.Forms.ComboBox CB_Kamui;
+        private System.Windows.Forms.ComboBox CB_Corrin;
         private System.Windows.Forms.Label LBL_CharType;
         private System.Windows.Forms.Label LBL_Emotions;
         private System.Windows.Forms.ComboBox CB_Emotion;

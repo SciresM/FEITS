@@ -25,7 +25,7 @@ namespace FEITS
         private Dictionary<string, string> Names;
         private Dictionary<string, byte[]> FaceData;
 
-        private string PLAYER_NAME = "Kamui";
+        private string PLAYER_NAME = "Corrin";
         private string RAW_MESSAGE = "$t1$Wmエリーゼ|3$w0|$Wsエリーゼ|$Wa$Eびっくり,汗|This is an example conversation.$k$p$Wmサクラ|7$w0|$Wsサクラ|$Wa$E怒,汗|It takes place between\nSakura and Elise.$k";
         private bool HAS_PERMS;
         private bool SET_TYPE;
@@ -45,7 +45,7 @@ namespace FEITS
 
 
         private string[] EyeStyles = { "a", "b", "c", "d", "e", "f", "g" };
-        private string[] Kamuis = { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" };
+        private string[] Corrins = { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" };
 
         private Image[] TextBoxes = { Resources.TextBox, Resources.TextBox_Nohr, Resources.TextBox_Hoshido };
 
@@ -89,14 +89,14 @@ namespace FEITS
                 ResourceList.Add(o.Key as string);
             Resources.ResourceManager.ReleaseAllResources();
 
-            CB_Kamui.Items.AddRange(new[] { "Male 1", "Male 2", "Female 1", "Female 2" });
+            CB_Corrin.Items.AddRange(new[] { "Male 1", "Male 2", "Female 1", "Female 2" });
             CB_Eyes.Items.AddRange(new[] { "Style A", "Style B", "Style C", "Style D", "Style E", "Style F", "Style G" });
             CB_TB.Items.AddRange(new[] { "Standard", "Nohrian", "Hoshidan" });
             CB_HairStyle.Items.AddRange(Enumerable.Range(0, 12).Select(i => i.ToString("00")).ToArray());
             CB_FacialFeature.Items.AddRange(new[]{"None", "Scratches", "Vertical Scratches", "Horizontal Scratches", "Tattoo 1", "Tattoo 2", "Tattoo 3", "Eye Mole", "Mouth Mole", "Plaster 1", "Plaster 2", "White Eyepatch", "Black Eyepatch"});
             CB_Accessory.Items.AddRange(new[] { "None", "Silver Piece", "Butterfly", "Black Ribbon", "White Ribbon", "White Rose"});
 
-            CB_Kamui.SelectedIndex = CB_TB.SelectedIndex = CB_Eyes.SelectedIndex = CB_HairStyle.SelectedIndex = CB_FacialFeature.SelectedIndex = CB_Accessory.SelectedIndex = 0;
+            CB_Corrin.SelectedIndex = CB_TB.SelectedIndex = CB_Eyes.SelectedIndex = CB_HairStyle.SelectedIndex = CB_FacialFeature.SelectedIndex = CB_Accessory.SelectedIndex = 0;
 
             MTB_HairColorA.Text = MTB_HairColorB.Text = "#5B5855";
             BACKGROUND_IMAGE = Resources.SupportBG.Clone() as Bitmap;
@@ -184,7 +184,7 @@ namespace FEITS
                     MSG = res.Item1;
                     if (res.Item2.NumParams > 0)
                         if (res.Item2.Params[0] == "ベロア")
-                            res.Item2.Params[0] = "べロア"; // Velour Fix
+                            res.Item2.Params[0] = "べロア"; // Velouria Fix
                     switch (res.Item2.CMD)
                     {
                         case "$E":
@@ -485,8 +485,8 @@ namespace FEITS
             string dat_id = "FSID_CT_" + CName;
             if (USER)
             {
-                dat_id = "FSID_CT_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
-                CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
+                dat_id = "FSID_CT_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Corrin.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                CName = EyeStyles[CB_Eyes.SelectedIndex] + Corrins[CB_Corrin.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
             else
@@ -501,7 +501,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_ct_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Corrin.SelectedIndex] + "_ct_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 if (ResourceList.Contains(hairname))
                 {
@@ -521,8 +521,8 @@ namespace FEITS
             string dat_id = "FSID_ST_" + CName;
             if (USER)
             {
-                dat_id = "FSID_ST_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
-                CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
+                dat_id = "FSID_ST_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Corrin.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                CName = EyeStyles[CB_Eyes.SelectedIndex] + Corrins[CB_Corrin.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
             else
@@ -538,7 +538,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Corrin.SelectedIndex] + "_st_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 for (int i = 1; i < Emos.Length; i++)
                 {
@@ -559,7 +559,7 @@ namespace FEITS
                 }
                 if (USER && CB_Accessory.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_st_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, new Point(133, 28));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Corrin.SelectedIndex] + "_st_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, new Point(133, 28));
                 }
             }
             if (Slot1)
@@ -574,8 +574,8 @@ namespace FEITS
             bool USER = CName == "username";
             if (USER)
             {
-                dat_id = "FSID_BU_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Kamui.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
-                CName = EyeStyles[CB_Eyes.SelectedIndex] + Kamuis[CB_Kamui.SelectedIndex];
+                dat_id = "FSID_BU_" + (new[] { "マイユニ_男1", "マイユニ_男2", "マイユニ_女1", "マイユニ_女2" })[CB_Corrin.SelectedIndex] + "_顔" + EyeStyles[CB_Eyes.SelectedIndex].ToUpper();
+                CName = EyeStyles[CB_Eyes.SelectedIndex] + Corrins[CB_Corrin.SelectedIndex];
                 hairname = CName.Substring(1) + hairname + CB_HairStyle.SelectedIndex;
             }
             else
@@ -591,7 +591,7 @@ namespace FEITS
             {
                 if (USER && CB_FacialFeature.SelectedIndex > 0)
                 {
-                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Corrin.SelectedIndex] + "_bu_アクセサリ1_" + CB_FacialFeature.SelectedIndex) as Image, new Point(0, 0));
                 }
                 for (int i = 1; i < Emos.Length; i++)
                 {
@@ -612,8 +612,8 @@ namespace FEITS
                 }
                 if (USER && CB_Accessory.SelectedIndex > 0)
                 {
-                    Point Acc = new[] { new Point(66, 5), new Point(65, 21) }[CB_Kamui.SelectedIndex - 2];
-                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Kamui.SelectedIndex] + "_bu_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, Acc);
+                    Point Acc = new[] { new Point(66, 5), new Point(65, 21) }[CB_Corrin.SelectedIndex - 2];
+                    g.DrawImage(Resources.ResourceManager.GetObject((new[] { "マイユニ男1", "マイユニ男2", "マイユニ女1", "マイユニ女2" })[CB_Corrin.SelectedIndex] + "_bu_アクセサリ2_" + CB_Accessory.SelectedIndex) as Image, Acc);
                 }
             }
             if (Crop)
@@ -911,13 +911,13 @@ namespace FEITS
             }
         }
 
-        private void CB_Kamui_SelectedIndexChanged(object sender, EventArgs e)
+        private void CB_Corrin_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (CB_Kamui.SelectedIndex < 2 && CB_Accessory.SelectedIndex > 0)
+            if (CB_Corrin.SelectedIndex < 2 && CB_Accessory.SelectedIndex > 0)
             {
                     CB_Accessory.SelectedIndex = 0;
             }
-            CB_Accessory.Enabled = LBL_Accessory.Enabled = CB_Kamui.SelectedIndex > 1;
+            CB_Accessory.Enabled = LBL_Accessory.Enabled = CB_Corrin.SelectedIndex > 1;
         }
     }
 

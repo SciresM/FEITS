@@ -1,116 +1,116 @@
 Anna	BF5854
-Aqua	BAE1E1
+Azura	BAE1E1
 Asama	785F60
-Asura	EEE8DF
-Belka	A2C0C8
-Benoit	F2E3B5
+Shura	EEE8DF
+Beruka	A2C0C8
+Benny	F2E3B5
 Camilla	BFB7DF
-Casita	C9C3BF
+Cassita	C9C3BF
 Charlotte	EBD9A6
-Clear	B3C1CD
-Crimson	EFE0B8
-Cyrus	AAB4B4
-Dia	D2D2C3
-Draj	7E815D
-Elfie	DCD9D3
+Kilma	B3C1CD
+Scarlet	EFE0B8
+Silas	AAB4B4
+Dwyer	D2D2C3
+Candace	7E815D
+Effie	DCD9D3
 Elise	F2E4D1
-Eponine	F5F3F0
+Nina	F5F3F0
 Felicia	E6C8B4
-Flannel	F5F3F0
+Keaton	F5F3F0
 Flora	C0E0E7
-Foleo	F2E3B5
-Fuuga	603020
-Ganz	484060
+Forrest	F2E3B5
+Fuga	603020
+Hans	484060
 Garon	FEF9EE
-Grey	E47859
-Gunther	C8BCC8
-Harold	FEEAB7
+Asugi	E47859
+Gunter	C8BCC8
+Arthur	FEEAB7
 Hinata	6F554B
 Hinoka	B42D2D
 Hisame	6F554B
 Ignis	D2C3AA
 Izana	F7F5EF
-Joker	D2D2C3
+Jakob	D2D2C3
 Kagerou	4B3935
-Kamui	808080
-Kanna	EBE2D6
-Kazahana	A58D7B
-Kinu	D39146
-Kisaragi	C1B2AC
-Kotarou	7C7858
-Lala	CEAED1
+Corrin	808080
+Kana	EBE2D6
+Hana	A58D7B
+Selkie	D39146
+Kiragi	C1B2AC
+Kotaro	7C7858
+Layla	CEAED1
 Lazwald	999191
-Leon	D2C3AA
+Leo	D2C3AA
 Lilith	68A2D2
 Lucina	4C587B
-Luna	AF5454
-Lutz	FEEAB7
-Macbeth	342F2E
-Marx	D0C29F
-Matoi	CC7373
-Midoriko	7D9682
+Serena	AF5454
+Percy	FEEAB7
+Iago	342F2E
+Xander	D0C29F
+Caeldori	CC7373
+Midori	7D9682
 Mikoto	333130
 Mitama	785F60
-Mozume	463E39
-Nacht	4F5349
-Nishiki	D39146
+Mozu	463E39
+Nichol	4F5349
+Kaden	D39146
 Nyx	6A6170
 Oboro	64708C
 Odin	DAD3BD
 Ophelia	DAD3BD
 Orochi	8C7B8C
-Pieri	87BFD8
+Peri	87BFD8
 Rainbow Sage	DADADA
-Rinka	F5EDDC
+Rinkah	F5EDDC
 Robin	BEBEBE
 Ryouma	58332D
-Saizou	914343
+Saizo	914343
 Sakura	CF786E
 Setsuna	648A91
-Shara	484848
-Shenmei	BAE1E1
+Rhajat	484848
+Arete	BAE1E1
 Shigure	BAE1E1
-Shinonome	58332D
+Shiro	58332D
 Siegbert	D0C29F
 Soleil	EBCDD6
 Sophie	AAB5B5
 Sumeragi	FEF9EE
-Suzukaze	7D9682
+Kaze	7D9682
 Takumi	C1B2AC
-Tsubaki	8A4144
-Tsukuyomi	8B5A5C
-Velour	F5F3F0
+Subaki	8A4144
+Hayato	8B5A5C
+Velouria	F5F3F0
 Yukimura	6E868E
-Yuugiri	5B7396
-Zero	F5F3F0
-Zoura	C8B994
-Kamui 1	F6F4EF
-Kamui 2	C35855
-Kamui 3	D38969
-Kamui 4	EDDBC5
-Kamui 5	ABD1A1
-Kamui 6	7DBBC4
-Kamui 7	92ADD0
-Kamui 8	C8A2D6
-Kamui 9	FEDADA
-Kamui 10	C0AA9C
-Kamui 11	A5A6A6
-Kamui 12	9B4444
-Kamui 13	99634C
-Kamui 14	CFC3A1
-Kamui 15	6F845F
-Kamui 16	3C7986
-Kamui 17	4C5F78
-Kamui 18	82678C
-Kamui 19	EEB1B1
-Kamui 20	837267
-Kamui 21	5B5855
-Kamui 22	E85D64
-Kamui 23	F59D71
-Kamui 24	E8DB98
-Kamui 25	8ED484
-Kamui 26	86E1DC
-Kamui 27	4D81B5
-Kamui 28	AF81D5
-Kamui 29	F497AF
-Kamui 30	6E4F3B
+Reina	5B7396
+Niles	F5F3F0
+Zola	C8B994
+Corrin 1	F6F4EF
+Corrin 2	C35855
+Corrin 3	D38969
+Corrin 4	EDDBC5
+Corrin 5	ABD1A1
+Corrin 6	7DBBC4
+Corrin 7	92ADD0
+Corrin 8	C8A2D6
+Corrin 9	FEDADA
+Corrin 10	C0AA9C
+Corrin 11	A5A6A6
+Corrin 12	9B4444
+Corrin 13	99634C
+Corrin 14	CFC3A1
+Corrin 15	6F845F
+Corrin 16	3C7986
+Corrin 17	4C5F78
+Corrin 18	82678C
+Corrin 19	EEB1B1
+Corrin 20	837267
+Corrin 21	5B5855
+Corrin 22	E85D64
+Corrin 23	F59D71
+Corrin 24	E8DB98
+Corrin 25	8ED484
+Corrin 26	86E1DC
+Corrin 27	4D81B5
+Corrin 28	AF81D5
+Corrin 29	F497AF
+Corrin 30	6E4F3B
