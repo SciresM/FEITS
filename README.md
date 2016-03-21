@@ -1,7 +1,7 @@
 # FEITS
 Fire Emblem Fates Text Simulator
 
-![FEITS](http://i.imgur.com/OE7w7UO.png)
+![FEITS](preview.png)
 
 Simulates Fire Emblem Fates conversations, allows for the generation of portraits with specific hair colors, and is generally neat. 
 
