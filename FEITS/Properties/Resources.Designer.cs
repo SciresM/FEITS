@@ -4364,44 +4364,44 @@ namespace FEITS.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Anna	BF5854
-        ///Anna	BF5854
-        ///Azura	BAE1E1
+        ///Aqua	BAE1E1
         ///Asama	785F60
-        ///Shura	EEE8DF
-        ///Beruka	A2C0C8
-        ///Benny	F2E3B5
+        ///Asura	EEE8DF
+        ///Belka	A2C0C8
+        ///Benoit	F2E3B5
         ///Camilla	BFB7DF
-        ///Cassita	C9C3BF
+        ///Casita	C9C3BF
         ///Charlotte	EBD9A6
-        ///Kilma	B3C1CD
-        ///Scarlet	EFE0B8
-        ///Silas	AAB4B4
-        ///Dwyer	D2D2C3
-        ///Candace	7E815D
-        ///Effie	DCD9D3
+        ///Clear	B3C1CD
+        ///Crimson	EFE0B8
+        ///Cyrus	AAB4B4
+        ///Dia	D2D2C3
+        ///Draj	7E815D
+        ///Elfie	DCD9D3
         ///Elise	F2E4D1
-        ///Nina	F5F3F0
+        ///Eponine	F5F3F0
         ///Felicia	E6C8B4
-        ///Keaton	F5F3F0
+        ///Flannel	F5F3F0
         ///Flora	C0E0E7
-        ///Forrest	F2E3B5
-        ///Fuga	603020
-        ///Hans	484060
+        ///Foleo	F2E3B5
+        ///Fuuga	603020
+        ///Ganz	484060
         ///Garon	FEF9EE
-        ///Asugi	E47859
-        ///Gunter	C8BCC8
-        ///Arthur	FEEAB7
+        ///Grey	E47859
+        ///Gunther	C8BCC8
+        ///Harold	FEEAB7
         ///Hinata	6F554B
         ///Hinoka	B42D2D
         ///Hisame	6F554B
         ///Ignis	D2C3AA
         ///Izana	F7F5EF
-        ///Jakob	D2D2C3
+        ///Joker	D2D2C3
         ///Kagerou	4B3935
-        ///Corrin 	808080	 [rest of string was truncated]&quot;;.
+        ///Kamui	808080
+        ///Kanna [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HCs {
             get {
@@ -4428,47 +4428,47 @@ namespace FEITS.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to 不明	Unknown
-        ///デフォルト名	Corrin
-        ///ギュンター	Gunter
+        ///デフォルト名	Kamui
+        ///ギュンター	Gunther
         ///フェリシア	Felicia
-        ///ジョーカー	Jakob
-        ///リンカ	Rinkah
-        ///スズカゼ	Kaze
+        ///ジョーカー	Joker
+        ///リンカ	Rinka
+        ///スズカゼ	Suzukaze
         ///サクラ	Sakura
-        ///アクア	Azura
-        ///カザハナ	Hana
-        ///ツバキ	Subaki
-        ///サイラス	Silas
-        ///サイゾウ	Saizo
+        ///アクア	Aqua
+        ///カザハナ	Kazahana
+        ///ツバキ	Tsubaki
+        ///サイラス	Cyrus
+        ///サイゾウ	Saizou
         ///オロチ	Orochi
         ///ヒノカ	Hinoka
-        ///アサマ	Azama
+        ///アサマ	Asama
         ///セツナ	Setsuna
-        ///ツクヨミ	Hayato
+        ///ツクヨミ	Tsukuyomi
         ///オボロ	Oboro
         ///ヒナタ	Hinata
         ///タクミ	Takumi
         ///カゲロウ	Kagerou
-        ///ユウギリ	Reina
-        ///ニシキ	Reina
-        ///リョウマ	Ryoma
-        ///クリムゾン	Scarlet
-        ///アシュラ	Shura
+        ///ユウギリ	Yuugiri
+        ///ニシキ	Nishiki
+        ///リョウマ	Ryouma
+        ///クリムゾン	Crimson
+        ///アシュラ	Asura
         ///エリーゼ	Elise
-        ///ハロルド	Arthur
-        ///エルフィ	Effie
+        ///ハロルド	Harold
+        ///エルフィ	Elfie
         ///オーディン	Odin
-        ///ゼロ	Niles
+        ///ゼロ	Zero
         ///ニュクス	Nyx
         ///カミラ	Camilla
-        ///ルーナ	Serena
+        ///ルーナ	Luna
         ///ベルカ	Belka
-        ///ラズワルド	Laslow
+        ///ラズワルド	Lazwald
         ///ピエリ	Pieri
-        ///ブノワ	Benny
+        ///ブノワ	Benoit
         ///シャーロッテ	Charlotte
         ///レオン	 [rest of string was truncated]&quot;;.
         /// </summary>

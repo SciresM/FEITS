@@ -1,12 +1,18 @@
 # FEITS
-Fire Emblem Fates Text Simulator
+Fire Emblem If (Fates) Text Simulator
 
-![FEITS](preview.png)
+![FEITS](/FEITS/Resources/img/example_conversation_preview.png)
 
 Simulates Fire Emblem Fates conversations, allows for the generation of portraits with specific hair colors, and is generally neat. 
 
-Reference Guide: http://pastebin.com/0g7jf3i3
 
+# V1.2.1 Changelog
+
+-Optimized PNGs to save a bit of memory and hopefully boot a bit faster
+
+-Changed default conversation to something absurd (Selkie/Chrom) to better show the benefits of the program.
+
+-Localized Reference Guide, and stored locally.
 
 
 # V1.2 Changelog
@@ -31,7 +37,7 @@ Reference Guide: http://pastebin.com/0g7jf3i3
 
 -Added support for more DLC characters.
 
--Added support for Corrin facial features and accessories.
+-Added support for Kamui facial features and accessories.
 
 -Added a Background feature for conversations (the in-game Supports barrack is the default).
 
@@ -43,7 +49,7 @@ Reference Guide: http://pastebin.com/0g7jf3i3
 
 -Fixed a bug involving Velouria not showing up properly.
 
--Fixed a bug involving Corrin "bu" closeup portraits in the simulator (Portrait Generator was unaffected).
+-Fixed a bug involving Kamui "bu" closeup portraits in the simulator (Portrait Generator was unaffected).
 
 -Fixed a bug involving the "Previous" button functioning incorrectly.
 

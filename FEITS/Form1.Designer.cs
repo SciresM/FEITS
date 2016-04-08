@@ -39,7 +39,7 @@
             this.TB_CharName = new System.Windows.Forms.TextBox();
             this.LBL_CharType = new System.Windows.Forms.Label();
             this.LBL_TBType = new System.Windows.Forms.Label();
-            this.CB_Corrin = new System.Windows.Forms.ComboBox();
+            this.CB_Kamui = new System.Windows.Forms.ComboBox();
             this.CB_TB = new System.Windows.Forms.ComboBox();
             this.LBL_HairColorA = new System.Windows.Forms.Label();
             this.MTB_HairColorA = new System.Windows.Forms.MaskedTextBox();
@@ -76,8 +76,8 @@
             this.RTB_Line.Name = "RTB_Line";
             this.RTB_Line.Size = new System.Drawing.Size(379, 119);
             this.RTB_Line.TabIndex = 1;
-            this.RTB_Line.Text = "$t1$Wmエリーゼ|3$w0|$Wsエリーゼ|$Wa$Eびっくり,汗|This is an example conversation.$k$p$Wmサクラ|7$" +
-                "w0|$Wsサクラ|$Wa$E怒,汗|It takes place between\\nSakura and Elise.$k";
+            this.RTB_Line.Text = "$t1$Wmキヌ|3$w0|$Wsキヌ|$Wa$E差分,|This is an example conversation.$k$p$" +
+                "Wmクロム左|7$w0|$Wsクロム左|$Wa$E笑,|It takes place between Selkie and Chrom.$k";
             this.RTB_Line.TextChanged += new System.EventHandler(this.RTB_Line_TextChanged);
             // 
             // B_Reload
@@ -138,7 +138,7 @@
             this.TB_CharName.Name = "TB_CharName";
             this.TB_CharName.Size = new System.Drawing.Size(96, 20);
             this.TB_CharName.TabIndex = 7;
-            this.TB_CharName.Text = "Corrin";
+            this.TB_CharName.Text = "Kamui";
             this.TB_CharName.TextChanged += new System.EventHandler(this.TB_CharName_TextChanged);
             // 
             // LBL_CharType
@@ -159,15 +159,15 @@
             this.LBL_TBType.TabIndex = 10;
             this.LBL_TBType.Text = "TextBox:";
             // 
-            // CB_Corrin
+            // CB_Kamui
             // 
-            this.CB_Corrin.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CB_Corrin.FormattingEnabled = true;
-            this.CB_Corrin.Location = new System.Drawing.Point(55, 288);
-            this.CB_Corrin.Name = "CB_Corrin";
-            this.CB_Corrin.Size = new System.Drawing.Size(73, 21);
-            this.CB_Corrin.TabIndex = 11;
-            this.CB_Corrin.SelectedIndexChanged += new System.EventHandler(this.CB_Corrin_SelectedIndexChanged);
+            this.CB_Kamui.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CB_Kamui.FormattingEnabled = true;
+            this.CB_Kamui.Location = new System.Drawing.Point(55, 288);
+            this.CB_Kamui.Name = "CB_Kamui";
+            this.CB_Kamui.Size = new System.Drawing.Size(73, 21);
+            this.CB_Kamui.TabIndex = 11;
+            this.CB_Kamui.SelectedIndexChanged += new System.EventHandler(this.CB_Kamui_SelectedIndexChanged);
             // 
             // CB_TB
             // 
@@ -338,7 +338,7 @@
             this.Controls.Add(this.MTB_HairColorA);
             this.Controls.Add(this.LBL_HairColorA);
             this.Controls.Add(this.CB_TB);
-            this.Controls.Add(this.CB_Corrin);
+            this.Controls.Add(this.CB_Kamui);
             this.Controls.Add(this.LBL_TBType);
             this.Controls.Add(this.LBL_CharType);
             this.Controls.Add(this.TB_CharName);
@@ -353,7 +353,7 @@
             this.MaximumSize = new System.Drawing.Size(430, 600);
             this.MinimumSize = new System.Drawing.Size(430, 600);
             this.Name = "Form1";
-            this.Text = "Fire Emblem: If Text Simulator";
+            this.Text = "Fire Emblem Fates Text Simulator";
             ((System.ComponentModel.ISupportInitialize)(this.PB_TextBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -372,7 +372,7 @@
         private System.Windows.Forms.TextBox TB_CharName;
         private System.Windows.Forms.Label LBL_CharType;
         private System.Windows.Forms.Label LBL_TBType;
-        private System.Windows.Forms.ComboBox CB_Corrin;
+        private System.Windows.Forms.ComboBox CB_Kamui;
         private System.Windows.Forms.ComboBox CB_TB;
         private System.Windows.Forms.Label LBL_HairColorA;
         private System.Windows.Forms.MaskedTextBox MTB_HairColorA;
