@@ -28,3 +28,8 @@ Reference Guide: http://pastebin.com/0g7jf3i3
 -Fixed a bug involving the "Previous" button functioning incorrectly.
 
 -Further improvements to overall system stability, system security, and other minor adjustments have been made to enhance the user experience.
+
+**Licensing:**
+
+This software is licensed under the terms of the GPLv3.  
+You can find a copy of the license in the LICENSE.txt file.
