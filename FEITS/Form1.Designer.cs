@@ -76,8 +76,8 @@
             this.RTB_Line.Name = "RTB_Line";
             this.RTB_Line.Size = new System.Drawing.Size(379, 119);
             this.RTB_Line.TabIndex = 1;
-            this.RTB_Line.Text = "$t1$Wmエリーゼ|3$w0|$Wsエリーゼ|$Wa$Eびっくり,汗|This is an example conversation.$k$p$Wmサクラ|7$" +
-                "w0|$Wsサクラ|$Wa$E怒,汗|It takes place between\\nSakura and Elise.$k";
+            this.RTB_Line.Text = "$t1$Wmキヌ|3$w0|$Wsキヌ|$Wa$E差分,|This is an example conversation.$k$p$" +
+                "Wmクロム左|7$w0|$Wsクロム左|$Wa$E笑,|It takes place between Selkie and Chrom.$k";
             this.RTB_Line.TextChanged += new System.EventHandler(this.RTB_Line_TextChanged);
             // 
             // B_Reload
@@ -353,7 +353,7 @@
             this.MaximumSize = new System.Drawing.Size(430, 600);
             this.MinimumSize = new System.Drawing.Size(430, 600);
             this.Name = "Form1";
-            this.Text = "Fire Emblem: If Text Simulator";
+            this.Text = "Fire Emblem Fates Text Simulator";
             ((System.ComponentModel.ISupportInitialize)(this.PB_TextBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

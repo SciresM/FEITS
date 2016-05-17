@@ -77,7 +77,7 @@ namespace FEITS
                         }
                     }
                 }
-                Characters[i].Add(new cbItem { Text = "Kamui", Value = "username" });
+                Characters[i].Add(new cbItem { Text = "Corrin", Value = "username" });
                 Characters[i].Add(new cbItem { Text = "Kanna (M)", Value = "カンナ男" });
                 Characters[i].Add(new cbItem { Text = "Kanna (F)", Value = "カンナ女" });
                 Characters[i] = Characters[i].OrderBy(cbi => cbi.Text).ToList();

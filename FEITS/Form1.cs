@@ -25,8 +25,8 @@ namespace FEITS
         private Dictionary<string, string> Names;
         private Dictionary<string, byte[]> FaceData;
 
-        private string PLAYER_NAME = "Kamui";
-        private string RAW_MESSAGE = "$t1$Wmエリーゼ|3$w0|$Wsエリーゼ|$Wa$Eびっくり,汗|This is an example conversation.$k$p$Wmサクラ|7$w0|$Wsサクラ|$Wa$E怒,汗|It takes place between\nSakura and Elise.$k";
+        private string PLAYER_NAME = "Corrin";
+        private string RAW_MESSAGE = "$t1$Wmキヌ|3$w0|$Wsキヌ|$Wa$E差分,|This is an example conversation.$k$p$Wmクロム左|7$w0|$Wsクロム左|$Wa$E笑,|It takes place between Selkie and Chrom.$k";
         private bool HAS_PERMS;
         private bool SET_TYPE;
 
