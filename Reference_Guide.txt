@@ -174,20 +174,20 @@ BOTH PATH CHARACTERS
 
 username - Corrin (gender, etc, determined in app)
 アンナ　- Anna
-アシュラ - Shura 
 アクア - Azura
-サイラス - Silas
-フェリシア - Felicia 
+フェリシア - Felicia
 イザナ - Izana
-ジョーカー - Jakob 
-モズメ - MoKaze
+ジョーカー - Jakob
+モズメ - Kaze
+アシュラ - Shura
+サイラス - Silas
 
 2nd Generation/Children:
 
+ディーア - Dweyer
 カンナ男 - Kana (Female)
 カンナ女 - Kana (Male)
-ディーア - Dweyer
-ミドリコ - Midori 
+ミドリコ - Midori
 シグレ - Shigure
 ゾフィー - Sophie
 
@@ -198,35 +198,35 @@ HOSHIDO CHARACTERS
 1st Generation:
 
 アサマ - Azama
-クリムゾン - Scarlet
+カザハナ - Hana
+ツクヨミ - Hayato
 ヒナタ - Hinata
 ヒノカ - Hinoka
-カゲロウ - Kagerou
-カザハナ - Hana
 ニシキ - Kaden
+カゲロウ - Kagero
 オボロ - Oboro
 オロチ - Orochi
+ユウギリ - Reina
 リンカ - Rinkah
 リョウマ - Ryouma
 サイゾウ - Saizo
 サクラ - Sakura
+クリムゾン - Scarlet
 セツナ - Setsuna
-タクミ - Takumi
 ツバキ - Subaki
-ツクヨミ - Hayato
+タクミ - Takumi
 ユキムラ - Yukimura
-ユウギリ - Reina
 
 2nd Generation/Children:
 
 グレイ - Asugi
-ヒサメ - Hisame
-キヌ - Selkie
-キサラギ - Kiragi
 マトイ - Caeldori
-ミタマ - Mitama 
-シノノメ - Shiro
+ヒサメ - Hisame
+キサラギ - Kiragi
+ミタマ - Mitama
 シャラ - Rhajat
+キヌ - Selkie
+シノノメ - Shiro
 
 -------------------------------------------------------------------------------------------
 NOHR CHARACTERS
@@ -234,32 +234,32 @@ NOHR CHARACTERS
 
 1st Generation:
 
-ベルカ - Beruka
+ハロルド - Arthur
 ブノワ - Benny
+ベルカ - Beruka
 カミラ - Camilla
 シャーロッテ - Charlotte
 エルフィ - Effie
 エリーゼ　- Elise
-フランネル - Keaton
 フローラ - Flora
 ギュンター - Gunther
-ハロルド - Arthur
+フランネル - Keaton
 ラズワルド - Laslow
 レ オン - Leo
-ルーナ - Serena
-マークス - Xander
+ゼロ - Niles
 ニュクス　- Nyx
 オーディン - Odin
 ピエリ - Peri
-ゼロ - Niles
+ルーナ - Serena
+マークス - Xander
 
 2nd Generation/Children:
 
-エポニーヌ - Nina
-フォレオ - Forest
+フォレオ - Forrest
 イグニス - Ignatius
-ルッツ - Percy
+エポニーヌ - Nina
 オフェリア - Ophelia
+ルッツ - Percy
 ジークベルト - Siegbert
 ソレイユ - Soleil
 ベロア - Velouria
@@ -270,7 +270,7 @@ MAJOR NPC CHARACTERS
 
 Normal:
 
-ガンズ - Hanz
+ガンズ - Hans
 ガロン - Garon
 マクベス - Iago
 ミコト - Mikoto
@@ -291,25 +291,25 @@ Extra Characters:
 カシータ - Cassita
 ララ - Layla
 虹の賢者 - Rainbow Sage
-フードマン - Food Vendor
+フードマン - Sumeragi (Hodded)
 
 -------------------------------------------------------------------------------------------
 CAPTURABLE UNITS (with unique portrait)
 -------------------------------------------------------------------------------------------
 
-バンバ - Tarba
-ダイチ - Daichi
 ドラジェ - Candace
+ダイチ - Daichi
 ダニエラ - Daniela
 ファンク - Funke
 カザック - Gazzak
 ハイタカ - Haitaka
-ホルモン - Llewelyn
 クマゲラ - Kumagera
-モズ - Morzas
-ナハト - Nichol
-セノウ - Senno
+ホルモン - Llewelyn
 ウィリアム - Lloyd
+ナハト - Nichol
+モズ - Omozu
+セノウ - Senno
+バンバ - Tarba
 ヴァスハラ - Zhara
 
 -------------------------------------------------------------------------------------------
@@ -317,8 +317,8 @@ BOSSES
 -------------------------------------------------------------------------------------------
 
 クーリア - Kilma 
-フウガ - Fuga (recruitable in Revelation)
-コタロウ - Kotarou 
+フウガ - Fuga
+コタロウ - Kotaro
 
 -------------------------------------------------------------------------------------------
 OTHER FIRE EMBLEM CHARACTERS
@@ -336,16 +336,16 @@ ENEMIES + VILLAGERS
 ノスフェラトゥ - Faceless
 ゴーレム - Stoneborn
 
-村人おじいさん白 - Hoshidian Old Man (Elder)
-村人おばさん白 - Hoshidian Old Woman 
-村人お姉さん白 - Hoshidian Girl
 村人お兄さん白 - Hoshidian Boy
 村人子供白 - Hoshidian Child
+村人お姉さん白 - Hoshidian Girl
+村人おじいさん白 - Hoshidian Old Man (Elder)
+村人おばさん白 - Hoshidian Old Woman
+村人お兄さん黒 - Nohrian Boy
 村人子供黒 - Nohrian Child
+村人お姉さん黒 - Nohrian Girl
 村人おじいさん黒 - Nohrian Old Man
 村人おばさん黒 - Nohrian Old Woman
-村人お姉さん黒 - Nohrian Girl
-村人お兄さん黒 - Nohrian Boy
 
 -------------------------------------------------------------------------------------------
 DRAGONS
@@ -374,138 +374,125 @@ DLC
 GENERICS
 -------------------------------------------------------------------------------------------
 
-カゲマン - Unknown Unit (Shadow unit)
-
-Male Generic:
-
-アドベンチャラー男 - Adventurer
+薬商人男 - Apothecary
 弓使い男 - Archer
-アーマーナイト男 - Armor Knight
-アクスファイター男 - Axe Fighter
 婆娑羅男 - Basara
 バーサーカー男 - Berserker
 鍛冶男 - Blacksmith
 ボウナイト男 - Bow Knight
-ブレイブヒーロー男 - Brave Hero
+ソシアルナイト男 - Cavalier
 ダークナイト男 - Dark Knight
 ダークマージ男 - Dark Mage
-ドラゴンナイト男 - Dragon Knight
-ドラゴンマスター男 - Dragon Master
-陰陽師男 - Exorcist
-妖狐男 - Fox / Kitsune
-ガルー男 - Garou/Golem
+呪い師男 - Diviner
+マーナガルム男 - Empty Vessel Garon
+聖天馬武者女 - Falcon Knight
+アクスファイター男 - Fighter
 ジェネラル男 - General
-グレートナイト男 - Great Knight 
-大商人男 - Great Merchant
-薬商人男 - Herb Merchant
-上忍男 - High Ninja
-弓聖男 - Holy Archer
-槍聖男 - Holy Lancer
-ランサー男 - Lance Fighter (Nohr)
-槍術士男 - Lance Fighter (Hoshido)
-マーナガルム男 - Slime Garon
-マーシナリー男 - Mercenary
-山伏男 - Mountain Priest
-九尾の狐男 - Nine-tailed Fox 
-忍男 - Ninja
-鬼人男 - Oni
-修羅男 - Oni Fighter
-パラディン男 - Paladin
-絡繰師 - Mechanist
-レヴナントナイト男 - Revenant Knight
-侍男 - Samurai
-呪い師男 - Spellcaster
-兵法者男 - Weaponmaster
-ソシアルナイト男 - Social Knight / Cavalier
-ソーサラー男 - Sorcerer
-シーフ男 - Thief
-剣聖男 - Trueblade
-村人男 - Villager
-
-Female Generic:
-
-金鵄武者女 - Golden Kite Warrior
-聖天馬武者女 - Holy Pegasus Warrior
+グレートナイト男 - Great Knight
+山伏男 - Great Master
+ブレイブヒーロー男 - Hero
+マーシナリー男 - Hero
+金鵄武者女 - Kinshi Knight
+妖狐男 - Kitsune
+アーマーナイト男 - Knight
+ランサー男 - Lancer
 メイド女 - Maid
-巫女 - Miko / Shrine Maiden
-天馬武者女 - Pegasus Warrior
-絡繰人形 - Puppet 
-ロッドナイト女 - Rod Knight
+レヴナントナイト男 - Malig Knight
+上忍男 - Master Ninja
+忍男 - Master Ninja
+兵法者男 - Master of Arms
+絡繰師 - Mechanist
+大商人男 - Merchant
+侍男 - Myrmidon
+九尾の狐男 - Nine-Tails
+鬼人男 - Oni
+修羅男 - Oni Chieftain
+パラディン男 - Paladin
+天馬武者女 - Pegasus Knight
+戦巫女 - Priestess
+巫女 - Priestess
+絡繰人形 - Replica
+陰陽師男 - Sage
+槍聖男 - Sentinel
+弓聖男 - Sniper
+ソーサラー男 - Sorcerer
+槍術士男 - Spear Fighter
 ストラテジスト女 - Strategist
-戦巫女 - War Priestess
+シーフ男 - Thief
+アドベンチャラー男 - Trickster
+ロッドナイト女 - Troubadour
+剣聖男 - Trueblade
+カゲマン - Unknown Unit (Shadow unit)
 村人女 - Villager
+ガルー男 - Wolfskin
+ドラゴンマスター男 - Wyvern Lord
+ドラゴンナイト男 - Wyvern Rider
 
--------------------------------------------------------------------------------------------
-NOT-WORKING/UNCONFIRMED/TOO LAZY TO CHECK UNITS
--------------------------------------------------------------------------------------------
 
-ガザック - Gazzak
-異界の人物 - Outrealm Unit
-ハイドラ - Anankos (no portrait)
 
 -------------------------------------------------------------------------------------------
 PORTRAIT GENERATOR JAPANESE UNITS (IN ORDER)
 -------------------------------------------------------------------------------------------
 
-アーマーナイト男 - Armor Knight
-アクスファイター男 - Axe Fighter
-アドベンチャラー男 - Adventurer
-カゲマン - Unknown Unit (Shadow Unit)
-ガザック - Gazzak (does not work in simulator code)
-ガルー男 - Golem
-グレートナイト男 - Great Knight
-シーフ男 - Thief
-ジェネラル男 - General
-シェンメイ影 - Shenmei's Shadow
-ストラテジスト女 - Strategist (Female)
-スメラギ影 - Sumeragi's Shadow
-スライムガロン - Slime Garon
-ソーサラー男 - Sorcerer
+竜の状態の透魔竜 - Anankos
+面をつけた透魔竜 - Anankos
+薬商人男 - Apothecary
+弓使い男 - Archer
+シェンメイ影 - Arete's Shadow
+婆娑羅男 - Basara
+バーサーカー男 - Berserker
+鍛冶男 - Blacksmith
+暗夜竜 - Blight Dragon
+ボウナイト男 - Bow Knight
 ソシアルナイト男 - Cavalier
 ダークナイト男 - Dark Knight
 ダークマージ男 - Dark Mage
 ドラゴンナイト男 - Dragon Knight
-ドラゴンマスター男 - Dragon Master
-バーサーカー男 - Berserker
-パラディン男 - Paladin
-ブレイブヒーロー男 - Brave Hero
-ボウナイト男 - Bow Knight
-マーシナリー男 - Mercenary
-マーナガルム男 - Mega Garou/Golem
-ミコト影 - Mikoto's Shadow
-メイド女 - Maid
-ランサー男 - Lance Fighter (Nohrian)
-レヴナントナイト男 - Revenant Knight
-ロッドナイト女 - Rod Knight
-上忍男 - High Ninja
-九尾の狐男 - Nine-Tailed Fox
-侍男 - Samurai
-修羅男 - Oni Fighter
-兵法者男 - Weaponmaster
-剣聖男 - Trueblade
-呪い師男 - Spellcaster
-大商人男 - Great Merchant
-天馬武者女 - Pegasus Warrior
+スライムガロン - Empty Vessel Garon
+聖天馬武者女 - Falcon Knight
+アクスファイター男 - Fighter
+ガザック - Gazzak
+ジェネラル男 - General
+グレートナイト男 - Great Knight
+山伏男 - Great Master
+ブレイブヒーロー男 - Hero
+金鵄武者女 - Kinshi Knight
 妖狐男 - Kitsune
-婆娑羅男 - Basara
-山伏男 - Mountain Priest
-巫女 - Shrine Maiden
-弓使い男 - Archer
-弓聖男 - Holy Archer
+アーマーナイト男 - Knight
+ランサー男 - Lancer
+呪い師男 - Mage
+メイド女 - Maid
+レヴナントナイト男 - Malig Knight
+上忍男 - Master Ninja
+兵法者男 - Master of Arms
+絡繰師 - Mechanist
+マーシナリー男 - Mercenary
+大商人男 - Merchant
+ミコト影 - Mikoto's Shadow
+侍男 - Myrmidon
+九尾の狐男 - Nine-Tails
 忍男 - Ninja
-戦巫女 - War Priestess
-暗夜竜 - Dark Dragon (Nohr)
+修羅男 - Oni Chieftain
+鬼人男 - Oni Sage
+パラディン男 - Paladin
+天馬武者女 - Pegasus Knight
+戦巫女 - Priestess
+絡繰人形 - Replica
+陰陽師男 - Sage
+巫女 - Shrine Maiden
+弓聖男 - Sniper
+ソーサラー男 - Sorcerer
+槍術士男 - Spear Fighter
+槍聖男 -  Spear Master
+ガルー男 - Stoneborn
+ストラテジスト女 - Strategist
+スメラギ影 - Sumeragi's Shadow
+カゲマン - Test Portrait
+シーフ男 - Thief
+アドベンチャラー男 - Trickster
+ロッドナイト女 - Troubadour
+剣聖男 - Trueblade
 村人女 - Villager (Female)
 村人男 - Villager (Male)
-槍聖男 - Holy Lancer
-槍術士男 - Lance Fighter (Hoshidian)
-竜の状態の透魔竜 - Anankos
-絡繰人形 - Replica 
-絡繰師 - Mechanist
-聖天馬武者女 - Holy Pegasus Warrior
-薬商人男 - Herb Merchant
-金鵄武者女 - Golden Kite Warrior
-鍛冶男 - Blacksmith
-陰陽師男 - Exorcist
-面をつけた透魔竜 - Anankos
-鬼人男 - Oni Sage
+マーナガルム男 - Wolfssegner
+ドラゴンマスター男 - Wyvern Lord

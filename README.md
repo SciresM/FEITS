@@ -1,10 +1,5 @@
 # FEFTS
-Fire Emblem Fates Text Simulator
-
-
-Forked from https://github.com/SciresM/FEITS .
-Credit to SciresM for the original program. I only localized the names and fixed a few things.
-
+Fire Emblem Fates Text Simulator (Previously called Fire Emblem If Text Simulator)
 
 ![FEFTS](/FEFTS/Resources/img/example_conversation_preview.png)
 
