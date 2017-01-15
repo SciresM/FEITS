@@ -1,0 +1,1 @@
+for /r %%f in (*.png) do "D:\Hacking\PC Data Tools\PNG Crusher\optipng.exe" "%%f"
